@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script src="js/echarts-all.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    	<div id="main" style="width: 800px;height:400px;"></div>
+    	<script type="text/javascript">
+    		
+	        var myChart = echarts.init(document.getElementById('main'));
+//			var data1 = ;
+//			var data2 = ;
+	        // 指定图表的配置项和数据
+			option = {
+			    tooltip: {
+			        trigger: 'axis'
+			    },
+			    toolbox: {
+			        show: true,
+			        feature: {
+			            dataZoom: {
+			                yAxisIndex: 'none'
+			            },
+			            dataView: {readOnly: false},
+			            magicType: {type: ['line', 'bar']},
+			            restore: {},
+			            saveAsImage: {}
+			        }
+			    },
+			    xAxis:  {
+			        type: 'category',
+			        boundaryGap: false,
+			        //横坐标
+			        data: ['0.3','0.6','0.9','1.2','1.5','1.8','2.2']
+			    },
+			    yAxis: {
+			        type: 'value',
+			        axisLabel: {
+			            formatter: '{value} M'
+			        }
+			    },
+			    series: [
+			        {
+			            name:'最高气温',
+			            type:'line',
+			            
+			            data:[11, 11, 15, 13, 12, 13, 10],
+			            markPoint: {
+			                data: [
+			                    {type: 'max', name: '最大值'},
+			                    {type: 'min', name: '最小值'}
+			                ]
+			            },
+			            markLine: {
+			                data: [
+			                    {type: 'average', name: '平均值'}
+			                ]
+			            }
+			        }
+			    ]
+			};
+
+	
+	        // 使用刚指定的配置项和数据显示图表。
+	        myChart.setOption(option);
+    	</script>
+	</body>
+</html>

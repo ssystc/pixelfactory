@@ -1,0 +1,40 @@
+.frame_main { 
+	background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    width: 200px;
+    height: 240px;    
+}
+.left_span {
+	width: 52%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+#frame{
+	color: #FFF;
+}
+#event{
+	color: #0F0;
+}
+#update{
+	color: #0F0;
+}
+#cull{
+	color: #0FF;
+}
+#draw{
+	color: #FF0;
+}
+#gpu{
+	color: #F3AA36;
+}
+#postframe{
+    color: #F3AA36;
+}
+#webgl{
+    color: #F3AA36;
+}

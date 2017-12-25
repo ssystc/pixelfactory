@@ -1,0 +1,17 @@
+.save {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    height: 100px;
+    width: 100px;
+    background: #66F;
+    padding: 20px 20px;
+}
+
+.save button {
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    background: #00F;
+}

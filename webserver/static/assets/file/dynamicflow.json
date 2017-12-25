@@ -1,0 +1,26 @@
+﻿[
+  {
+    "createDate": "",
+    "desc": "",
+    "icon": "",
+    "id": "RSVegetation-0.0.1",
+    "manual": "",
+    "name": "植被提取",
+    "owner": "",
+    "redirect": "",
+    "runMethod": "",
+    "type": "surfaceobject"
+  },
+  {
+    "createDate": "",
+    "desc": "",
+    "icon": "",
+    "id": "RSWater-0.0.1",
+    "manual": "",
+    "name": "水提提取",
+    "owner": "",
+    "redirect": "",
+    "runMethod": "",
+    "type": "surfaceobject"
+  }
+]

@@ -1,0 +1,137 @@
+
+#biaop{
+	position: absolute;
+	top: 8px;
+	left: 508px;
+	width: 200px;
+	height:300px;
+	background: url(adfsa.png);
+	background-size:200px 300px;
+	z-index: 22;
+	font-size:14px;
+}
+#biaop .biaop_title{
+	height: 40px;
+	line-height: 40px;
+	margin:0px;
+	color: white;
+	text-align: center;
+}
+#biaop .biaop_inData p{
+	/*text-indent: 14px;
+	margin:0px;
+	height:25px;
+	color: white;*/
+	
+	text-indent: 14px;
+				padding-top: 10px;
+				color: white;
+				float: left;
+				width: 48;
+				height: 25px;
+				line-height: 30px;
+}
+#biaop .biaop_inData>p{
+	color: #1179c6;
+}			
+#biaop .biaop_inData span{
+	overflow: hidden;
+}
+#biaop .biaop_inData .span {
+	display: inline;
+    color:#1179c6;
+    margin-left: 12px;
+}
+#biaop .biaop_inData .input {
+	display: inline;
+    width: 20px;
+    margin-left: 12px;
+    color: white;
+}
+#biaop .biaop_analyze{
+	cursor: pointer;
+	width: 50px;
+	height: 20px;		
+	margin: 60px 0px 10px 75px;
+	border:2px solid red; 
+	/*background: linear-gradient(#026075 10%,#01254f);*/
+	border-image:-webkit-linear-gradient(#1179c6,#a037bc) 6 6;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+#biaop .globallight{
+	float: left;
+	height:35px;
+	line-height: 35px;
+	color: #1179c6 !important;
+}
+
+#biaop .setting-space{
+	width:100px;
+	height:30px;
+	float: left;
+	margin-left: 10px;
+	margin-top:10px;
+}
+#biaop .setting-control{
+	cursor: pointer;
+	width:50px;
+	height:15px;
+	border-radius:5px;
+	border:1px solid #1179c6;
+	float:left;
+	position: relative;
+}
+#biaop .setting-control img{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:25px;
+	height:15px;
+}
+#biaop .setcon-content{
+	float: left;
+}	
+#biaop .tkh-time{
+	width:100%;
+	height:45px;
+}
+#biaop .tkh-time input{
+	margin-left:15px;
+}	
+#biaop input[type=range] {
+	-webkit-appearance:none;
+	width:160px;
+	height:3px;
+}
+#biaop input[type=range]::-webkit-slider-runnable-track {
+	height:3px;
+	border-radius: 10px;
+	background: #aaaaaa;
+}
+#biaop input[type=range]:focus{
+	outline: none;
+}
+#biaop input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance:none;
+	height:5px;
+	width:5px;
+	margin-top:-7px;
+	background: #0d8ce9;
+	border-radius: 50%;
+	border:solid 8px rgba(0,0,0,0.4);
+}
+#biaop .tkh-time p{
+	line-height: 30px;
+	font-size:12px;
+}
+#biaop .tkh-select{
+	/*background: #000a15;*/
+	background: none;
+	color:white;
+	border-color:#1179c6;
+}	
+#biaop .tkh-select option{
+	background: #1179c6 ;
+}

@@ -1,0 +1,134 @@
+.geovis-sp {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #FFFFFF;
+    min-height: 320px;
+    min-width: 400px;
+    border: 1px #23bbe8 solid;
+    padding: 5px;
+    background-color: #0f0f0f;
+    opacity: 0.9;
+}
+
+.geovis-sp .title {
+    line-height: 38px;
+}
+
+.geovis-sp .nav-tabs {
+    border: none;
+}
+
+.geovis-sp table {
+    margin-left: 20px;
+    border: none!important;
+}
+
+.geovis-sp table.ts > tr {
+    line-height: 40px;
+}
+
+.geovis-sp .slope-legend {
+    float: right;
+    margin-right: 20px;
+    border-left: 2px #23bbe8 dashed;
+    padding-left: 20px;
+    height: 260px;
+}
+
+.geovis-sp .slope-legend table {
+    margin-left: 0;
+}
+
+.geovis-sp .btn-toolbar > .btn-group {
+    width: 30px;
+    height: 29px;
+}
+
+.geovis-sp .btn-toolbar > .btn-group.rect {
+    background-image: url("./images/矩形.png");
+}
+
+.geovis-sp .btn-toolbar > .btn-group.rect.active {
+    background-image: url("./images/矩形1.png");
+}
+
+.geovis-sp .slope-legend tr {
+    line-height: 30px;
+}
+
+.geovis-sp .slope-legend .legend-img {
+    width: 30px;
+    display: block;
+    height: 20px
+}
+
+.geovis-sp .slope-legend .legend-text {
+    padding-left: 15px;
+}
+
+.geovis-sp li > a {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+}
+
+.geovis-sp li.active > a, .geovis-sp li.active > a:focus, .geovis-sp li.active > a:hover,
+.geovis-sp li > a, .geovis-sp li > a:focus, .geovis-sp li > a:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.geovis-sp li > a.ts {
+    background-image: url("./images/通视分析.png");
+}
+
+.geovis-sp li > a.ts:hover, .geovis-sp li.active > a.ts {
+    background-image: url("./images/通视分析选中.png");
+}
+
+.geovis-sp li > a.pm {
+    background-image: url("./images/剖面分析.png");
+}
+
+.geovis-sp li > a.pm:hover, .geovis-sp li.active > a.pm {
+    background-image: url("./images/剖面分析选中.png");
+}
+
+.geovis-sp li > a.buffer {
+    background-image: url("./images/缓冲区分析.png");
+}
+
+.geovis-sp li > a.buffer:hover, .geovis-sp li.active > a.buffer {
+    background-image: url("./images/缓冲区分析选中.png");
+}
+
+.geovis-sp li > a.path {
+    background-image: url("./images/路径分析.png");
+}
+
+.geovis-sp li > a.path:hover, .geovis-sp li.active > a.path {
+    background-image: url("./images/路径分析选中.png");
+}
+
+.geovis-sp li > a.height {
+    background-image: url("./images/高度分析.png");
+}
+
+.geovis-sp li > a.height:hover, .geovis-sp li.active > a.height {
+    background-image: url("./images/高度分析选中.png");
+}
+
+.geovis-sp li > a.slope {
+    background-image: url("./images/坡度分析.png");
+}
+
+.geovis-sp li > a.slope:hover, .geovis-sp li.active > a.slope {
+    background-image: url("./images/坡度分析选中.png");
+}
+.geovis-sp .tab-content.toggle_wrap{
+  width: 100%;
+  overflow:auto;
+}

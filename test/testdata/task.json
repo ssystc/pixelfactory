@@ -1,0 +1,12 @@
+{
+    "id": "",
+    "name": "测试任务",
+    "desc": "测试流程的任务",
+    "owner": "ssy",
+    "createDate": "2017.08.08",
+    "flowId": "5070cb4a6e03464d8b4583ab069cca67",
+    "dir": "/home/llts/lzz/data",
+    "args": [
+        { "name": "tiffFile", "title": "输入影像文件", "type": "string", "value": "", "auto":["_transtiff.tiff"] }
+    ]
+}

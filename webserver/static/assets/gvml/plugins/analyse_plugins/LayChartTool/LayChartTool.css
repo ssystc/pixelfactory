@@ -1,0 +1,10 @@
+#main {
+/*	 background: #FFF !important;*/
+	/*style="width: 800px;height:400px;background: #FFF;position:absolute; top:0; right: 0;"*/
+	width: 500px;
+	height:200px;
+	position:absolute;
+	top:0; 
+	right: 0;
+	color: white;
+}

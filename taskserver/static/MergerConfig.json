@@ -1,0 +1,25 @@
+{
+    "name": "合并",
+    "type": "system",
+    "createDate" : "",
+	"desc" : "",
+	"icon" : "",
+	"manual" : false,
+	"op" : "",
+	"owner" : "",
+	"redirect" : "",
+	"version" : "0.0.1",
+    "ModuleClass": "merge",
+    "Userproperty": {
+        "InputParameter": {
+            "InputFilePath": [
+            ],
+            "Configuration": [
+            ]
+        },
+        "OutputParameter": {
+            "OutPutFilePath": [
+            ]
+        }
+    }
+}

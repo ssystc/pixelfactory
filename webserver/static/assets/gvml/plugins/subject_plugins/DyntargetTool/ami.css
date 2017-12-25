@@ -1,0 +1,287 @@
+html{
+	background: black;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+button{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.aim{
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.LeftMark{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #45c2e4;
+	border-radius: 50%;
+	z-index: 11;
+	background: saddlebrown;
+}
+.RightDet{
+	position: absolute;
+	top: -10px;
+	left: 16px;
+	width: 104px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 15px;
+	z-index: 0;
+	font-size: 12px;
+	border-radius: 0 5px 5px 0;
+	background: #45c2e4;
+}
+.LeftDet{
+	position: absolute;
+	top: -10px;
+	right: 16px;
+	width: 104px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 15px;
+	z-index: 0;
+	font-size: 12px;
+	border-radius: 5px 0 0 5px;
+	background: rgba(244,94, 94, 1);
+}
+.RightRange{
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	width: 102px;
+	height: 8px;
+	border: 1px solid #22414c;
+	background: rgba(30,37,43,0.5);
+}
+.RangeNum{
+	width: 23px;
+	height: 3px;
+	float: left;
+	margin: 2px 0 0 2px;
+	background: #8a9193;
+}
+.RangeName{
+	position: absolute;
+	top: 7px;
+	left: 44px;
+	width: 114px;
+	height: 24px;
+	color: #00b259;
+	background: url(./img/眼睛－点击.png) no-repeat;
+	background-position: left;
+	font-size: 12px;
+	text-indent:22px;
+	/*padding-left: 26px;*/
+	line-height: 30px;
+}
+.RightContent{
+	width: 222px;
+	height: 260px;
+	background: url(./img/背景框.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -10px;
+	left: 127px;
+	padding-left: 8px;
+}
+.RightContent img{
+	width: 214px;
+	height: 50px;
+	margin: 8px;
+	margin-left: 0;
+}
+
+.RightContent .title{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #3ca6c5;
+}
+.RightContent p{
+	font-size: 14px;
+	padding: 5px;
+	line-height: 22px;
+	color: white;
+}
+.LeftContent{
+	width: 222px;
+	height: 200px;
+	background: url(./img/背景框.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -10px;
+	right: 127px;
+	padding-left: 8px;
+}
+.LeftContent img{
+	width: 214px;
+	height: 120px;
+	margin: 8px;
+	margin-left: 0;
+}
+
+.LeftContent .title{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #3ca6c5;
+}
+.LeftContent p{
+	font-size: 16px;
+	padding: 5px;
+	line-height: 22px;
+	color: white;
+}
+.SeachedAim{
+	position: absolute;
+	top: -10px;
+	left: 127px;
+	width: 272px;
+	height: 200px;
+	background: url(./img/背景框.png) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 20px;
+}
+.SureBtn{
+	position: absolute;
+	top: 15px;
+	left: 154px;
+	width: 119px;  
+	height: 43px;
+	color: #45e85b;
+	line-height: 43px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background: url(./img/按钮-点击.png) no-repeat;
+}
+.LeftSureBtn{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 119px;  
+	height: 43px;
+	color: #45e85b;
+	line-height: 43px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background: url(./img/按钮-点击.png) no-repeat;
+}
+.NotSureBtn{
+	position: absolute;
+	top: 15px;
+	left: 154px;
+	width: 119px;
+	height: 43px;
+	color: #3da9c8;
+	line-height: 43px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background: url(./img/按钮-默认.png) no-repeat;
+}
+.SeachedAim1{
+	top: 280px;
+	left: -136px;
+}
+.SeachedAim .SearchAll{
+	position: absolute;
+	top: 15px;
+}
+.SeachedAim .SearchSure{
+	position: absolute;
+	top: 120px;
+}
+.SeachedAim .title{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #3ca6c5;
+}
+.SeachedAim p{
+	padding-top: 5px;
+	line-height: 22px;
+	color: white;
+}
+
+.fri_aim{
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+} 
+.fri_JunBiao{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #45c2e4;
+	border-radius: 50%;
+	background: red;
+}
+.fri_amiName{
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 104px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 15px;
+	font-size: 12px;
+	border-radius: 5px;
+	color: white;
+	background: #f45e5e;
+}
+.fri_amiName img{
+	margin-top: 5px;
+}
+.fri_amiDet{
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	width: 224px;
+	height: 194px;
+	background: url(./img/背景框.png) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 20px;
+	padding-top: 16px;
+	display: none;
+}
+
+.fri_amiDet h4{
+	color: #46c4e8;
+}
+.fri_amiDet p{
+	color: #999999;
+	line-height: 30px;
+}
+.fri_amiDet p span{
+	color: #b94a4c;
+}
+.fri_amiDet p:nth-of-type(2) span{
+	color: #fff;
+}
+#aim01{
+	top: 10px;
+	left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

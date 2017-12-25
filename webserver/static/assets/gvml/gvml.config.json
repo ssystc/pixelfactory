@@ -1,0 +1,167 @@
+{
+    "PluginCenterConfig": "/assets/gvml/plugins.json",
+    "DllPluginUrl": {
+        "BasePlugin": "BasePlugin//BasePlugin",
+        "AnalysePlugin": "AnalysePlugin//AnalysePlugin",
+        "DynTargetPlugin": "DynTargetPlugin//DynTargetPlugin",
+        "ElectromagneticPlugin": "ElectromagneticPlugin//ElectromagneticPlugin",
+        "MilitaryMarkPlugin": "MilitaryMarkPlugin//MilitaryMarkPlugin",
+		"TargetSelectPlugin": "TargetSelectPlugin//TargetSelectPlugin"
+    },
+    "Register": {
+        "GeoVIS::BasePlugin::DrawCurveTool": {
+            "name": "CurveTool",
+            "cn_zh": "标绘曲线工具",
+            "commands": {
+                "post": [],
+                "listen": [{ "name": "locationChange", "cn_zh": "位置更新"}]
+            }
+        },
+        "GeoVIS::BasePlugin::GVInfoBar": {
+            "name": "InfoBar",
+            "cn_zh": "信息条",
+            "commands": {
+                "post": [],
+                "listen": [{ "name": "locationChange", "cn_zh": "位置更新"}]
+            }
+        },
+        "GeoVIS::BasePlugin::FrameStatInfo": {
+            "name": "FrameState",
+            "cn_zh": "帧率状态信息",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::BasePlugin::DistanceMeasure": {
+            "name": "DistanceMeasure",
+            "cn_zh": "距离测量",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+         "GeoVIS::BasePlugin::AreaMeasure": {
+            "name": "AreaMeasure",
+            "cn_zh": "面积测量",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::BasePlugin::RectAngleTool": {
+            "name": "RectAngleTool",
+            "cn_zh": "态势分析",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::BasePlugin::DrawIconTool":{
+            "name": "DrawIconTool",
+            "cn_zh": "图标标绘",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::BasePlugin::DrawConeTool":{
+            "name": "DrawConeTool",
+            "cn_zh": "椎体标绘",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+
+        "GeoVIS::SkyAndCloudPlugin::SkyAndCloudWidget": {
+            "name": "SkyAndCloud",
+            "cn_zh": "天空特效",
+            "commands": {
+                "post": [{ "name": "time", "cn_zh": "光照时间"},
+                         { "name": "isLight", "cn_zh": "是否显示光照"}],
+                "listen": []
+            }
+        },
+        "GeoVIS::SkyAndCloudPlugin::ExplosionEffectWidget":{
+        	"name": "Explosion",
+            "cn_zh": "爆炸效果",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::SkyAndCloudPlugin::FireEffectWidget":{
+        	"name": "Fire",
+            "cn_zh": "火效果",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::SkyAndCloudPlugin::SmokeEffectWidget":{
+        	"name": "Smoke",
+            "cn_zh": "烟效果",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+         "GeoVIS::SkyAndCloudPlugin::RainEffectWidget":{
+        	"name": "Rain",
+            "cn_zh": "雨效果",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::GVAnalysePlugin::GetJSonTool":{
+            "name": "GetJSonTool",
+            "cn_zh": "刨面分析",
+            "commands": {
+                "post": [],
+                "listen": [{"name": "sendJSon", "cn_zh": "刨面数据"}]
+            }
+        },
+        "GeoVIS::GVDynTargetPlugin::DynTargetMessage":{
+            "name": "DynTarget",
+            "cn_zh": "态势",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::GVElecPlugin::ElecPluginMessage":{
+            "name": "Electric",
+            "cn_zh": "电磁",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::MilitaryMarkPlugin::GVMilitaryMarkTool":{
+            "name": "MilitaryMark",
+            "cn_zh": "军标",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+        "GeoVIS::BasePlugin::GVDynTargetWidget":{
+            "name": "DynTargetBubble",
+            "cn_zh": "态势信息面板",
+            "commands": {
+                "post": [],
+                "listen": []
+            }
+        },
+		"GeoVIS::TargetSelectPlugin::TargetSelectTool": {
+			"name": "targetSelect",
+			"cn_zh": "军标选取",
+			"commands": {
+				"post": [],
+                "listen": []
+			}
+		}
+    }
+}

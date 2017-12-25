@@ -1,0 +1,219 @@
+{
+	"ModuleClass" : "llts",
+	"Systemproperty" :
+	{
+		"Freeze" :
+		[
+			{
+				"name" : "FreezeExecute",
+				"title" : "冻结执行",
+				"type" : "string",
+				"value" : ""
+			}
+		],
+		"SystemConfiguration" :
+		[
+			{
+				"name" : "SlaveNum",
+				"title" : "线程个数",
+				"type" : "int",
+				"value" : 8
+			},
+			{
+				"name" : "ThreadNum",
+				"title" : "线程个数",
+				"type" : "int",
+				"value" : 4
+			},
+			{
+				"name" : "BlockSize",
+				"title" : "分块大小",
+				"type" : "int",
+				"value" : 2048
+			}
+		]
+	},
+	"Userproperty" :
+	{
+		"InputParameter" :
+		{
+			"Configuration" :
+			[
+				{
+					"name" : "ProductThumb",
+					"paramtype" : "1",
+					"title" : "缩略图生成",
+					"type" : "number",
+					"value" : 0
+				},
+				{
+					"name" : "GridSize",
+					"paramtype" : "1",
+					"title" : "格网大小",
+					"type" : "int",
+					"value" : 3
+				},
+				{
+					"name" : "ProductLevel",
+					"paramtype" : "1",
+					"title" : "产品级别",
+					"type" : "string",
+					"value" : "LEVEL4"
+				},
+				{
+					"name" : "PixelSpacing",
+					"paramtype" : "1",
+					"title" : "影像分辨率",
+					"type" : "float",
+					"value" : 0.0
+				},
+				{
+					"name" : "DEMFileName",
+					"paramtype" : "1",
+					"title" : "参考高程",
+					"type" : "url",
+					"value" : "E:\\VMcentosShare\\GEOVIS_DATA\\DEM"
+				},
+				{
+					"name" : "Egm96FileName",
+					"paramtype" : "1",
+					"title" : "参考Egm96高程",
+					"type" : "url",
+					"value" : "E:\\VMcentosShare\\GEOVIS_DATA\\DEM\\Egm96.tif"
+				}
+			],
+			"InputFilePath" :
+			[
+				{
+					"auto" : [ "dir_mss", "dir_pan" ],
+					"mulit" : false,
+					"name" : "InputImgFileName",
+					"title" : "输入影像",
+					"type" : "url",
+					"value" : "E:\\VMcentosShare\\GF\\ZY3_2\\SRCTiff\\ZY3_TLC_E116.0_N39.8_20120417_L1A0000921343-NAD.tif"
+				},
+				{
+					"auto" : [ "_BundleAdj.rpb", "_RPC.rpb", "dir_mss", "dir_pan" ],
+					"mulit" : false,
+					"name" : "InputRPCFileName",
+					"title" : "输入RPC",
+					"type" : "string",
+					"value" : "E:\\VMcentosShare\\GF\\ZY3_2\\SRCTiff\\ZY3_TLC_E116.0_N39.8_20120417_L1A0000921343-NAD_adj.txt"
+				}
+			],
+			"ReferenceImage" : []
+		},
+		"OutputParameter" :
+		{
+			"OutPutFilePath" :
+			[
+				{
+					"att" :
+					[
+						{
+							"name" : "DataFormat",
+							"title" : "影像格式",
+							"type" : "String",
+							"value" : "GTiff"
+						},
+						{
+							"name" : "ImageTime",
+							"title" : "生产时间",
+							"type" : "String",
+							"value" : 1503976353
+						},
+						{
+							"name" : "MapProjection",
+							"title" : "投影类型",
+							"type" : "String",
+							"value" : "UTM"
+						},
+						{
+							"name" : "EarthModel",
+							"title" : "参考椭球",
+							"type" : "String",
+							"value" : "WGS_84"
+						},
+						{
+							"name" : "PixelSpacing",
+							"title" : "分辨率",
+							"type" : "Double",
+							"value" : 2.0999999046325684
+						},
+						{
+							"name" : "SatelliteID",
+							"title" : "卫星标识",
+							"type" : "String",
+							"value" : "XXX"
+						},
+						{
+							"name" : "Location",
+							"title" : "地理位置",
+							"type" : "double",
+							"value" :
+							[
+								115.63899313317458,
+								39.496631578686781,
+								278.59199284832891,
+								115.62791180260658,
+								40.056846113638173,
+								278.59199284832891,
+								116.35170397800469,
+								40.063157698480232,
+								278.59199284832891,
+								116.35694131673426,
+								39.502819684375091,
+								278.59199284832891,
+								115.99432758367814,
+								39.780400043941768,
+								231.70729440450668
+							]
+						},
+						{
+							"name" : "DataType",
+							"title" : "数据类型",
+							"type" : "String",
+							"value" : "unsigned short"
+						}
+					],
+					"multi" : false,
+					"name" : "OutputImgFileName",
+					"suffix" : "_oc.tiff",
+					"title" : "输出文件",
+					"type" : "string",
+					"value" : "E:\\VMcentosShare\\GF\\ZY3_2\\result\\ZY3_TLC_E116.0_N39.8_20120417_L1A0000921343-NAD_ziji\\ZY3_TLC_E116.0_N39.8_20120417_L1A0000921343-NAD_OC.tiff"
+				}
+			],
+			"ProgramStatus" :
+			[
+				{
+					"name" : "ReturnCode",
+					"title" : "运行转态",
+					"type" : "String",
+					"value" : 0
+				},
+				{
+					"name" : "ReturnAnalyse",
+					"title" : "错误描述",
+					"type" : "String",
+					"value" : "SUCCESS"
+				}
+			]
+		}
+	},
+	"createDate" : "",
+	"desc" : "",
+	"dirs" : [ "原始影像", "正射纠正影像" ],
+	"icon" : "",
+	"manual" : "",
+	"name" : "正射纠正",
+	"op" : "OC",
+	"outputDir" : "",
+	"owner" : "",
+	"redirect" : "",
+	"tags" : "",
+	"tmp" : "",
+	"type" : "remotesatellite",
+	"version" : "0.0.1",
+	"workDir" : ""
+}

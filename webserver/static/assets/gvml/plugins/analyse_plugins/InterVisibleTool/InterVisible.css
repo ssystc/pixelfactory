@@ -1,0 +1,96 @@
+
+*{margin: 0;padding: 0;}			
+.tslv{
+	position: absolute;
+	width: 200px;
+	height:180px;
+	left:300px;
+	top:200px;
+	background: rgba(15,15,15,0.9);
+	border:1px solid #1f869f;
+	z-index: 22;
+	font-size:14px;
+}
+.tslv_title{
+	height: 25px;
+	line-height: 30px;
+	padding-top: 5px;
+	margin:0px;
+	color: white;
+	text-align: left;
+	font-size:18px;
+}
+.tslv_title span{
+	display: inline-block;
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	background: #24bae9;
+}
+.tslv_outData{
+	display: none;
+	padding-bottom: 20px;
+}
+.tslv_inData p,.tslv_outData p{
+	text-indent: 14px;			
+	color: white;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	line-height: 20px;
+	margin:0px;
+}
+.tslv_inData input{
+	text-indent: 5px;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid red;
+	border-image:-webkit-linear-gradient(top,#4f95a1,#3974b9) 1 1;
+	background:none;
+}
+.tslv_inData select{
+	text-indent: 10px;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	width: 120px;
+	height: 25px;
+	line-height: 30px;
+	border: 1px solid #12a9e9;
+	background:none;				
+}
+.tslv_inData select option{
+	background: #113749;
+}
+.tslv_outData input{
+	text-indent: 10px;
+	color: white;
+	float: right;
+	margin-right: 45px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+}
+.tslv_analyze , .tslv_remove{
+	cursor: pointer;
+	width: 50px;
+	height: 25px;
+	margin: 20px 0px 10px 35px;
+	float: left;
+	line-height: 25px;
+	background: linear-gradient(#026075 10%,#01254f);
+	color: white;
+	text-align: center;
+	border:1px solid #1f869f;
+	border-width: 0px;
+	/*box-sizing: border-box;*/
+}
+.tslv_remove{
+	background: none;
+	border-width: 1px;
+}

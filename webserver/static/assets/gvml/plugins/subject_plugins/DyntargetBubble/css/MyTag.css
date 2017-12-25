@@ -1,0 +1,161 @@
+body,html,span,p{
+    padding: 0;
+    margin: 0;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none; 
+}
+.geovis_tag_title{
+    width: 514px;
+    height: 30px;
+    background: #2CA6C4;
+    border-radius: 5px 5px 0 0;
+}
+.geovis_tag_title_span{
+    color: black;
+    font-size: 16px;
+    float: left;
+    font-weight: 800;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
+.geovis_tag_title_cancel{
+    width: 25px;
+    height: 24px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: url(../image/close.png) no-repeat 4px 3px;
+}
+.geovis_tag_content{
+    width: 494px;
+    height: 200px;
+    background: black;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+/*坐标*/
+.geovis_tag_content_coord{
+    height: 30px;
+    width: 494px;
+    margin-bottom: 5px;
+}
+.geovis_tag_content_coord span:nth-of-type(1){
+    width: 70px;
+    height: 30px;
+    background: #424343;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: #4BBEE2;
+}
+.geovis_tag_content_coord span:nth-of-type(2){
+    width: 405px;
+    height: 30px;
+    background: #212222;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 4px;
+    padding-left: 15px;
+    color: #fff;
+}
+/*时间*/
+.geovis_tag_content_time{
+    height: 30px;
+    width: 494px;
+    margin-bottom: 5px;
+}
+.geovis_tag_content_time span:nth-of-type(1){
+    width: 70px;
+    height: 30px;
+    background: #424343;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color:#4BBEE2;
+}
+.geovis_tag_content_time span:nth-of-type(2){
+    width: 405px;
+    height: 30px;
+    background: #212222;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 4px;
+    padding-left: 15px;
+    color: #fff;
+
+}
+/*部队*/
+.geovis_tag_content_forces{
+    height: 30px;
+    width: 494px;
+    margin-bottom: 10px;
+}
+.geovis_tag_content_forces span:nth-of-type(1){
+    width: 70px;
+    height: 30px;
+    background: #424343;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: #4BBEE2;
+    color: #4BBEE2;
+}
+.geovis_tag_content_forces span:nth-of-type(2){
+    width: 156px;
+    height: 30px;
+    background: #212222;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 4px;
+    padding-left: 15px;
+    color: #fff;
+}
+.geovis_tag_content_forces span:nth-of-type(3){
+    width: 70px;
+    height: 30px;
+    background: #424343;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 4px;
+    color: #4BBEE2;
+}
+.geovis_tag_content_forces span:nth-of-type(4){
+    width: 156px;
+    height: 30px;
+    background: #212222;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 4px;
+    padding-left: 15px;
+    color: #fff;
+}
+/*功能*/
+.geovis_tag_content_func{
+    width: 474px;
+    height:70px;
+    padding: 10px; 
+    background: #252525
+}
+.geovis_tag_content_func span{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-right: 4px;
+    /*background: #3E3E3E;*/
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.geovis_tag_content_func span:nth-of-type(1){
+    /*background: #247994;*/
+}

@@ -1,0 +1,90 @@
+{
+    "name": "2景",
+    "owner": "",
+    "desc": "",
+    "icon": "../../images/3.png",
+    "flowId": "b53937cbd7ad4ddc8c5af2bc107b77d7",
+    "dirclassify": "我的资源",
+    "createDate": "2017-09-19 14:5:49",
+    "dir": "200010035434538",
+    "argsD": [
+        {
+            "name": "sourceCoord",
+            "title": "源坐标系",
+            "type": "string",
+            "value": "GCS WGS 1984"
+        },
+        {
+            "name": "targetCoord",
+            "title": "目标坐标系",
+            "type": "string",
+            "value": "GCS WGS 1984"
+        }
+    ],
+    "args": [
+        {
+            "name": "panimg",
+            "title": "全色影像",
+            "type": "url",
+            "value": "60fc74ec-bcf1-4d9b-b0fa-e5f3cbd63af8",
+            "multi": true,
+            "index": 0
+        },
+        {
+            "name": "panimg",
+            "title": "全色影像",
+            "type": "url",
+            "value": "ae12db8e-7e8b-4b18-80dd-e7fa9b954d86",
+            "multi": true,
+            "index": 1
+        },
+        {
+            "name": "panrpb",
+            "title": "全色RPC",
+            "type": "url",
+            "value": "a57bf183-0f43-4141-a3bc-350437a9cb0b",
+            "multi": true,
+            "index": 0
+        },
+        {
+            "name": "panrpb",
+            "title": "全色RPC",
+            "type": "url",
+            "value": "9ddd86bb-3a1f-479e-86ff-a966bebfa917",
+            "multi": true,
+            "index": 1
+        },
+        {
+            "name": "mssimg",
+            "title": "多光谱影像",
+            "type": "url",
+            "value": "bab4d6f8-2f59-4805-b80c-e291c6acdc91",
+            "multi": true,
+            "index": 0
+        },
+        {
+            "name": "mssimg",
+            "title": "多光谱影像",
+            "type": "url",
+            "value": "0b4671c3-ce15-48ba-8953-e8bfdb9113b0",
+            "multi": true,
+            "index": 1
+        },
+        {
+            "name": "mssrpb",
+            "title": "多光谱RPC",
+            "type": "url",
+            "value": "cb02dfe8-de04-4a74-bb6b-d1318b665ce7",
+            "multi": true,
+            "index": 0
+        },
+        {
+            "name": "mssrpb",
+            "title": "多光谱RPC",
+            "type": "url",
+            "value": "267427d7-34a8-4052-9d8b-e7fcaa1cabd0",
+            "multi": true,
+            "index": 1
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" ?>
+<geocanvas>
+  <map>
+    <name>simple_basemap</name>
+    <version>2</version>
+    <supported_mode>23D</supported_mode>
+    <current_mode>3D</current_mode>
+    <type>geocentric</type>
+    <options>
+      <profile>plate-carre</profile>
+      <terrain>
+        <driver>mp</driver>
+        <elevation_smoothing>true</elevation_smoothing>
+        <incremental_update>true</incremental_update>
+        <max_lod>21</max_lod>
+        <min_lod>15</min_lod>
+        <min_tile_range_factor>16.0</min_tile_range_factor>
+        <normalize_edges>true</normalize_edges>
+        <range_mode>DISTANCE_FROM_EYE_POINT</range_mode>
+        <skirt_ratio>0.25</skirt_ratio>
+      </terrain>
+    </options>
+    <layers>
+      <uuid>6810236F-18F8-44F1-A05E-B54402D2D7E9</uuid>
+      <baseimage>
+        <uuid>32509677-0F3B-4704-BF5C-E6DB51CC29CA</uuid>
+		<!--image name="readymap_imagery" driver="tms" visible="true">
+          <url>http://127.0.0.1:3000/tms/tilemapresource.xml</url>
+        </image-->
+        <image name="world-tiff" driver="gdal" visible="true">
+          <url>./world.tif</url>
+        </image>
+        <!--image driver="tmap" tmap_type="tilebase" layers="0" format="jpeg" >
+		  <url>http://192.168.4.212:8622/geoviscloud/tileapi/wms?mapid=34978144:159716243ce:-7ffe</url>			
+		</image-->		
+		<!--<image name="readymap_imagery" driver="tms" visible="true">
+          <url>./tmap/tile_download/web_tiles/tms.xml</url>
+        </image>-->
+        <!--<image name="testTwms" driver="twms">
+          <url>http://192.168.4.168:9090/geowebcache/service/wms?</url>
+          <format>png</format>
+          <layers>testtc</layers>
+          <tile_size>256</tile_size>
+          <srs>EPSG:4326</srs>
+          <times>
+            2017-03-14T00:00:00Z
+          </times>
+          <seconds_per_frame>0.25</seconds_per_frame>
+          <cache_policy usage="no_cache"/>
+        </image>-->
+        
+      </baseimage>
+      <!--image name="world-tiff" driver="gdal" visible="true">
+        <url>./world.tif</url>
+      </image-->
+      <image driver="tms" name="wms-image" >
+		    <url>http://192.168.4.3:18080/geowebcache/service/tms/1.0.0/IMG@EPSG%3A4326_IMG@jpeg/</url>			
+	    </image>
+      <!--<elevation driver="tms" name="service_elevation">
+        <url>http://192.168.4.181:9090/geowebcache/service/tms/1.0.0/topo30_1@EPSG%3A4326@tiff/</url>
+      </elevation>-->
+      
+      <!--feature_source name="world-data" driver="ogr">
+        <url>./world.shp</url>
+        <build_spatial_index>true</build_spatial_index>
+        <convert type="line"/>
+      </feature_source>
+    
+	  <feature_model name="world_boundaries" feature_source="world-data">	    
+	    <layout tile_size="500000" crop_features="true">
+	        <level max_range="1e10"/>
+	    </layout>	            
+	    <styles>
+	        <style type="text/css">
+	            world {
+	               stroke:                       #ffff00;
+	               stroke-width:                 2px;
+	               stroke-tessellation-size:     100km;
+	               altitude-offset: 1000;
+	            }            
+	        </style>
+	    </styles>	    
+	  </feature_model-->
+	  
+	  <!--<feature_model name="world_boundaries">	    
+	    <features name="world-data" driver="ogr">
+          <url>./shp/world.shp</url>
+          <build_spatial_index>true</build_spatial_index>
+        </features>
+        <feature_indexing enabled="false"/>
+        <layout crop_features="true">
+            <level max_range="1e10" min_range="5e6"/>
+        </layout>    
+	    <styles>
+	        <style type="text/css">
+                world {
+                   stroke:             #FFFF00;
+                   stroke-width:                 2px;
+                   stroke-tessellation-size:     100km;
+                   render-depth-offset-min-bias: 1000;
+                   altitude-clamping:  terrain-gpu;
+                }
+            </style>
+	    </styles>	    
+	  </feature_model>-->
+	  
+	  <!--<feature_model name="shengjie">
+        <features name="shengjie" driver="ogr">
+            <url>\shp\shengjiel.shp</url>
+            <build_spatial_index>false</build_spatial_index>
+        </features>
+        <feature_indexing enabled="false"/>
+        <layout>
+            <level max_range="1e7" min_range="1e3"/>
+        </layout>
+        <styles>
+            <style type="text/css">
+                shengjie {
+                   stroke:             #9CD200;
+                   stroke-width:                 1px;
+                   stroke-tessellation-size:     10km;
+                   render-depth-offset-min-bias: 1000;
+                   altitude-clamping:  terrain-gpu;
+                   stroke-stipple-pattern: 0x00FF;
+                   stroke-stipple-factor:1
+                }
+            </style>
+        </styles>
+      </feature_model>-->
+    
+      <!--feature_model name="states">
+	    <features name="states" driver="ogr">
+	        <url>\\192.168.4.201\guidang\Data\temp_shp_kml\utility_submarine_cable\utility_submarine_cable_shp\utility_submarine_cable.shp</url>
+	    </features>
+	    <styles>
+	        <style type="text/css">
+	            states {
+	            stroke:                       #ff0000;
+	            stroke-width:                 2px;
+	            stroke-tessellation-size:     10km;
+	            altitude-offset:          1000.0;
+	            }
+	        </style>
+	    </styles>
+	  </feature_model-->
+      
+    </layers>
+    
+    <scenes>
+      <uuid>2811236F-19F8-44A1-A05E-B54742D2D7E2</uuid>
+    
+    </scenes>
+  </map>
+</geocanvas>

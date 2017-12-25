@@ -1,0 +1,433 @@
+{
+  "data": [
+    {
+      "title": "基础插件集",
+      "img": "/assets/gvml/plugins/基础插件.png",
+      "list": [
+        {
+          "name": "常用插件",
+          "img": "/assets/gvml/plugins/常用插件.png",
+          "list": [
+            {
+              "name": "scenemode",
+              "alias": "维度切换",
+              "img": "/assets/gvml/plugins/经纬度.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "SceneModeWidget",
+              "url": "/assets/gvml/plugins/base_plugins/SceneModeWidget/"
+            },
+            {
+              "name": "compass",
+              "alias": "指北针",
+              "img": "/assets/gvml/plugins/指北针.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "CompassZoom",
+              "url": "/assets/gvml/plugins/base_plugins/CompassZoom/"
+            },
+            {
+              "name": "birdview",
+              "alias": "鸟瞰图",
+              "img": "/assets/gvml/plugins/指北针.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "Birdview",
+              "url": "/assets/gvml/plugins/base_plugins/Birdview/"
+            },
+            {
+              "name": "coordsinfo",
+              "alias": "状态条信息",
+              "img": "/assets/gvml/plugins/信息条.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "CoordsInfoWidget",
+              "url": "/assets/gvml/plugins/base_plugins/CoordsInfoWidget/"
+            },
+            {
+              "name": "gradicule",
+              "alias": "经纬度信息",
+              "img": "/assets/gvml/plugins/信息条.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "gradiculeWidget",
+              "url": "/assets/gvml/plugins/base_plugins/gradiculeWidget/"
+            },
+            {
+              "name": "gridwidget",
+              "alias": "格网信息",
+              "img": "/assets/gvml/plugins/信息条.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "GridWidget",
+              "url": "/assets/gvml/plugins/base_plugins/GridWidget/"
+            },
+            {
+              "name": "skywidget",
+              "alias": "大气层",
+              "img": "/assets/gvml/plugins/信息条.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "SkyWidget",
+              "url": "/assets/gvml/plugins/base_plugins/SkyWidget/"
+            },
+            {
+              "name": "layermanager",
+              "alias": "图层管理器",
+              "img": "/assets/gvml/plugins/图层logo.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "LayersTool",
+              "url": "/assets/gvml/plugins/base_plugins/LayersTool/"
+            },
+            {
+              "name": "draw",
+              "alias": "标绘",
+              "img": "/assets/gvml/plugins/图标.png",
+              "type": "tool",
+              "on_off": true,
+              "js": "DrawIconTool",
+              "url": "/assets/gvml/plugins/base_plugins/BasePlugins/"
+            },
+            {
+              "name": "streetview",
+              "alias": "街景",
+              "img": "/assets/gvml/plugins/图层logo.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "StreetViewWidget",
+              "url": "/assets/gvml/plugins/base_plugins/StreetViewWidget/"
+            },
+            {
+              "name": "frameStatInfo",
+              "alias": "帧率统计",
+              "img": "/assets/gvml/plugins/图层logo.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "FrameStatInfo",
+              "url": "/assets/gvml/plugins/base_plugins/FrameStatInfo/"
+            },
+            {
+              "name": "bluetooth",
+              "alias": "蓝牙",
+              "img": "/assets/gvml/plugins/经纬度.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "Bluetooth",
+              "url": "/assets/gvml/plugins/base_plugins/Bluetooth/"
+            },
+            {
+              "name": "ViewpointCollect",
+              "alias": "视点收藏",
+              "img": "/assets/gvml/plugins/经纬度.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "ViewpointCollect",
+              "url": "/assets/gvml/plugins/base_plugins/ViewpointCollect/"
+            }
+          ]
+        },
+        {
+          "name": "空间分析",
+          "img": "/assets/gvml/plugins/空间分析.png",
+          "list": [
+            {
+              "name": "distance",
+              "alias": "距离量测",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "DistanceTool",
+              "url": "/assets/gvml/plugins/base_plugins/DistanceTool/"
+            },
+            {
+              "name": "azimuthmeasure",
+              "alias": "方位角",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "AzimuthMeasureTool",
+              "url": "/assets/gvml/plugins/base_plugins/AzimuthMeasureTool/"
+            },
+            {
+              "name": "areameasure",
+              "alias": "面积量测",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "AreaMeasureTool",
+              "url": "/assets/gvml/plugins/base_plugins/AreaMeasureTool/"
+            },
+            {
+              "name": "rectangletool",
+              "alias": "态势分析",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "RectAngleTool",
+              "url": "/assets/gvml/plugins/base_plugins/RectAngleTool/"
+            },
+            {
+              "name": "snapshotsplugin",
+              "alias": "影像出图",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "SnapshotsPlugin",
+              "url": "/assets/gvml/plugins/base_plugins/SnapshotsPlugin/"
+            },
+            {
+              "name": "laycharttool",
+              "alias": "刨面分析",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "LayChartTool",
+              "url": "/assets/gvml/plugins/analyse_plugins/LayChartTool/"
+            },
+            {
+              "name": "intervisibletool",
+              "alias": "通视分析",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "InterVisibleTool",
+              "url": "/assets/gvml/plugins/analyse_plugins/InterVisibleTool/"
+            },
+            {
+              "name": "wateranalysetool",
+              "alias": "淹没分析",
+              "img": "/assets/gvml/plugins/距离量测.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "WaterAnalyseTool",
+              "url": "/assets/gvml/plugins/analyse_plugins/WaterAnalyseTool/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "应用插件集",
+      "img": "/assets/gvml/plugins/应用插件.png",
+      "list": [
+        {
+          "name": "应用常用插件",
+          "img": "/assets/gvml/plugins/应用插件.png",
+          "list": [
+            {
+              "name": "milmark",
+              "alias": "军标标绘",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "MilitaryMark",
+              "url": "/assets/gvml/plugins/subject_plugins/MilitaryMark/"
+            },
+            {
+              "name": "newmark",
+              "alias": "全新标绘",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "MarkPlugin",
+              "url": "/assets/gvml/plugins/subject_plugins/markPlugin/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "特效挂件集",
+      "img": "/assets/gvml/plugins/应用插件.png",
+      "list": [
+        {
+          "name": "天空特效",
+          "img": "/assets/gvml/plugins/天空特效.png",
+          "list": [
+            {
+              "name": "Skyandcloud",
+              "alias": "天空",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "Skyandcloud",
+              "url": "/assets/gvml/plugins/effect_plugins/Skyandcloud/"
+            },
+            {
+              "name": "ocean",
+              "alias": "海水",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "Ocean",
+              "url": "/assets/gvml/plugins/effect_plugins/Ocean/"
+            },
+            {
+              "name": "explosion",
+              "alias": "爆炸",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "explosion",
+              "url": "/assets/gvml/plugins/effect_plugins/"
+            },
+            {
+              "name": "fire",
+              "alias": "火",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "fire",
+              "url": "/assets/gvml/plugins/effect_plugins/"
+            },
+            {
+              "name": "smoke",
+              "alias": "烟",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "smoke",
+              "url": "/assets/gvml/plugins/effect_plugins/"
+            },
+            {
+              "name": "rain",
+              "alias": "雨",
+              "img": "/assets/gvml/plugins/军标2.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "rain",
+              "url": "/assets/gvml/plugins/effect_plugins/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "专题插件集",
+      "img": "/assets/gvml/plugins/专题.png",
+      "list": [
+        {
+          "name": "专题空间分析",
+          "img": "/assets/gvml/plugins/空间分析.png",
+          "list": [
+            {
+              "name": "elecmagnetic",
+              "alias": "电磁",
+              "img": "/assets/gvml/plugins/电磁.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "ElectroMagneticTool",
+              "url": "/assets/gvml/plugins/subject_plugins/ElectroMagneticTool/"
+            },
+            {
+              "name": "elecmagneticHFDY",
+              "alias": "电磁HFDY",
+              "img": "/assets/gvml/plugins/电磁.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "ElectroMagneticWdigetHFDY",
+              "url": "/assets/gvml/plugins/subject_plugins/ElectroMagneticTool/"
+            }
+          ]
+        },
+        {
+          "name": "态势插件",
+          "img": "/assets/gvml/plugins/态势插件.png",
+          "list": [
+            {
+              "name": "dyntarget",
+              "alias": "态势",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "DyntargetTool",
+              "url": "/assets/gvml/plugins/subject_plugins/DyntargetTool/"
+            }
+          ]
+        },
+        {
+          "name": "态势信息面板插件",
+          "img": "/assets/gvml/plugins/态势插件.png",
+          "list": [
+            {
+              "name": "dyntargetBubble",
+              "alias": "态势",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "DyntargetBubble",
+              "url": "/assets/gvml/plugins/subject_plugins/DyntargetBubble/"
+            }
+          ]
+        },
+        {
+          "name": "态势编辑插件",
+          "img": "/assets/gvml/plugins/态势插件.png",
+          "list": [
+            {
+              "name": "dyntargetcreate",
+              "alias": "态势编辑",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "TargetCreateTool",
+              "url": "/assets/gvml/plugins/subject_plugins/TargetCreateTool/"
+            }
+          ]
+        },
+        {
+          "name": "航路编辑插件",
+          "img": "/assets/gvml/plugins/态势插件.png",
+          "list": [
+            {
+              "name": "routeedit",
+              "alias": "航路编辑",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "RouteEditTool",
+              "url": "/assets/gvml/plugins/subject_plugins/RouteEditTool/"
+            }
+          ]
+        },
+        {
+          "name": "移动编辑插件",
+          "img": "/assets/gvml/plugins/态势插件.png",
+          "list": [
+            {
+              "name": "moveedit",
+              "alias": "移动编辑",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "tool",
+              "on_off": false,
+              "js": "MoveObjectTool",
+              "url": "/assets/gvml/plugins/subject_plugins/MoveObjectTool/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "场景插件",
+      "img": "/assets/gvml/plugins/专题.png",
+      "list": [
+        {
+          "name": "场景管理",
+          "img": "/assets/gvml/plugins/空间分析.png",
+          "list": [
+            {
+              "name": "sceneManager",
+              "alias": "场景管理",
+              "img": "/assets/gvml/plugins/动目标.png",
+              "type": "widget",
+              "on_off": false,
+              "js": "SceneManager",
+              "url": "/assets/gvml/plugins/scene_plugins/SceneManager/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+    #moveDiv {
+        width: 300px;
+	    height: 181px;
+	    position: absolute;
+	    /* border: 1px solid rgb(36, 203, 255); */
+	    right: 26px;
+	    bottom: 87px;
+    }
+
+    #moveDiv > .title {
+         height: 30px;
+         width: 100%;
+         border-bottom: 1px solid rgb(36, 203, 255);
+         color: white;
+         background-color: rgba(23, 36, 54, 0.8);
+    }
+    #moveDiv > .title > span {
+        height: 18px;
+        line-height: 16px;
+        font-size: 18px;
+        padding-left: 16px;
+        border-left: 6px solid rgb(36, 203, 255);
+        float: left;
+        margin-top: 6px;
+        font-weight: bold;
+    }
+
+    #moveDiv > .title > .del {
+        float: right;
+        margin-right: 0px;
+        background: url(./image/del.png);
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 12px;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+    #moveDiv > .title > .del:hover {
+        background-image: url(./image/del_hover.png);
+        background-size: 25px;
+    }
+
+    #moveDiv > .birdview {
+        height: 150px;
+        width: 100%;
+        background: url(./image/minimap.png);
+        background-position: center;
+        background-size: 302px 152px;
+        background-repeat: no-repeat;
+    }
+
+    .birdview > #cross_cursor {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url(./image/cross.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 24px;
+    }

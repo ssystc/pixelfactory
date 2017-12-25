@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <title>login test</title>
+        <script src="jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+                $.ajax({
+                    url: "/api/module",
+                    error: function(xhr, textStatus, errorThrown) {
+                        if (xhr.status == 401) {
+                            alert(window.location.href)
+                            window.location.href = "/user/login?redirect=/testlogin/index.html"
+                        }
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>

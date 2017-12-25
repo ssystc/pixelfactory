@@ -1,0 +1,1082 @@
+{
+    "IOMap": [
+        {
+            "input": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "panimg"
+            },
+            "output": {
+                "id": "",
+                "name": "panimg"
+            }
+        },
+        {
+            "input": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "panrpb"
+            },
+            "output": {
+                "id": "",
+                "name": "panrpb"
+            }
+        },
+        {
+            "input": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "mssimg"
+            },
+            "output": {
+                "id": "",
+                "name": "mssimg"
+            }
+        },
+        {
+            "input": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "mssrpb"
+            },
+            "output": {
+                "id": "",
+                "name": "mssrpb"
+            }
+        },
+        {
+            "input": {
+                "id": "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+                "name": "InputImgFileName"
+            },
+            "output": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "panimg"
+            }
+        },
+        {
+            "input": {
+                "id": "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+                "name": "InputRPCFileName"
+            },
+            "output": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "panrpb"
+            }
+        },
+        {
+            "input": {
+                "id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2",
+                "name": "InputImgFileName"
+            },
+            "output": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "mssimg"
+            }
+        },
+        {
+            "input": {
+                "id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2",
+                "name": "InputRPCFileName"
+            },
+            "output": {
+                "id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+                "name": "mssrpb"
+            }
+        },
+        {
+            "input": {
+                "id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+                "name": "InputPANFileName"
+            },
+            "output": {
+                "id": "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+                "name": "OutputImgFileName"
+            }
+        },
+        {
+            "input": {
+                "id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+                "name": "InputMSSFileName"
+            },
+            "output": {
+                "id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2",
+                "name": "OutputImgFileName"
+            }
+        },
+        {
+            "input": {
+                "id": "RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37",
+                "name": "InputMSS_STDFileName"
+            },
+            "output": {
+                "id": "",
+                "name": "mssimg"
+            }
+        },
+        {
+            "input": {
+                "id": "RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37",
+                "name": "InputMSS_UNIFileName"
+            },
+            "output": {
+                "id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+                "name": "OutputImgFileName"
+            }
+        }
+    ],
+    "createDate": "2017-09-19 13:51:45",
+    "desc": "",
+    "icon": "../../images/3.png",
+    "id": "b53937cbd7ad4ddc8c5af2bc107b77d7",
+    "key": "flow",
+    "modules": [
+        {
+            "ModuleClass": "parallel",
+            "Userproperty": {
+                "InputParameter": {
+                    "Configuration": [],
+                    "InputFilePath": []
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": []
+                }
+            },
+            "createDate": "",
+            "desc": "",
+            "flow_id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+            "icon": "",
+            "id": "parallel",
+            "manual": false,
+            "name": "并行",
+            "op": "",
+            "owner": "",
+            "redirect": "",
+            "type": "system",
+            "version": "0.0.1"
+        },
+        {
+            "ModuleClass": "",
+            "Systemproperty": {
+                "Freeze": [
+                    {
+                        "name": "FreezeExecute",
+                        "title": "冻结执行",
+                        "type": "string",
+                        "value": ""
+                    }
+                ],
+                "SystemConfiguration": [
+                    {
+                        "name": "SlaveNum",
+                        "title": "线程个数",
+                        "type": "int",
+                        "value": 8
+                    },
+                    {
+                        "name": "ThreadNum",
+                        "title": "线程个数",
+                        "type": "int",
+                        "value": 4
+                    },
+                    {
+                        "name": "BlockSize",
+                        "title": "分块大小",
+                        "type": "int",
+                        "value": 2048
+                    }
+                ]
+            },
+            "Userproperty": {
+                "InputParameter": {
+                    "Configuration": [
+                        {
+                            "name": "MapProjection",
+                            "paramtype": "1",
+                            "title": "投影方式",
+                            "type": "string",
+                            "value": "WGS84"
+                        },
+                        {
+                            "name": "GridSize",
+                            "paramtype": "1",
+                            "title": "格网大小",
+                            "type": "int",
+                            "value": 8
+                        },
+                        {
+                            "name": "ProductLevel",
+                            "paramtype": "1",
+                            "title": "产品级别",
+                            "type": "string",
+                            "value": "LEVEL4"
+                        },
+                        {
+                            "name": "PixelSpacing",
+                            "paramtype": "1",
+                            "title": "影像分辨率",
+                            "type": "float",
+                            "value": 0
+                        },
+                        {
+                            "name": "DataFormat",
+                            "paramtype": "1",
+                            "title": "产品类型",
+                            "type": "string",
+                            "value": "GTIFF"
+                        },
+                        {
+                            "name": "ProductThumb",
+                            "paramtype": "1",
+                            "title": "缩略图生成",
+                            "type": "number",
+                            "value": 1
+                        },
+                        {
+                            "name": "DEMFileName",
+                            "paramtype": "0",
+                            "title": "参考高程",
+                            "type": "url",
+                            "value": "info=\"http://192.168.48.3:9090/geowebcache/product/getinfo?productid=GlobalDEM1Km\",data=\"http://192.168.48.3:9090/geowebcache/product/tile?layers=GlobalDEM1Km\""
+                        },
+                        {
+                            "name": "Egm96FileName",
+                            "paramtype": "0",
+                            "title": "参考Egm96高程",
+                            "type": "url",
+                            "value": ""
+                        }
+                    ],
+                    "InputFilePath": [
+                        {
+                            "auto": [
+                                "dir_mss",
+                                "dir_pan"
+                            ],
+                            "mulit": false,
+                            "name": "InputImgFileName",
+                            "title": "输入影像",
+                            "type": "url",
+                            "value": "/mnt/hgfs/VMcentosShare/GF/5scence/PAN/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.tiff"
+                        },
+                        {
+                            "auto": [
+                                "_BundleAdj.rpb",
+                                "_RPC.rpb",
+                                "dir_mss",
+                                "dir_pan"
+                            ],
+                            "mulit": false,
+                            "name": "InputRPCFileName",
+                            "title": "输入RPC",
+                            "type": "string",
+                            "value": "/mnt/hgfs/VMcentosShare/GF/5scence/PAN/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.rpb"
+                        }
+                    ],
+                    "ReferenceImage": []
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        {
+                            "att": [
+                                {
+                                    "name": "DataFormat",
+                                    "title": "影像格式",
+                                    "type": "String",
+                                    "value": "SPIMG"
+                                },
+                                {
+                                    "name": "ImageTime",
+                                    "title": "生产时间",
+                                    "type": "String",
+                                    "value": 1505545980635
+                                },
+                                {
+                                    "name": "MapProjection",
+                                    "title": "投影类型",
+                                    "type": "String",
+                                    "value": "WGS84"
+                                },
+                                {
+                                    "name": "EarthModel",
+                                    "title": "参考椭球",
+                                    "type": "String",
+                                    "value": "WGS_84"
+                                },
+                                {
+                                    "name": "PixelSpacing",
+                                    "title": "分辨率",
+                                    "type": "Double",
+                                    "value": 0.000033089433424380216
+                                },
+                                {
+                                    "name": "SatelliteID",
+                                    "title": "卫星标识",
+                                    "type": "String",
+                                    "value": "XXX"
+                                },
+                                {
+                                    "name": "Location",
+                                    "title": "地理位置",
+                                    "type": "double",
+                                    "value": [
+                                        113.39885644436266,
+                                        39.965881895762564,
+                                        1162.6766726943943,
+                                        113.40719844779034,
+                                        40.20300507081384,
+                                        1162.6766726943943,
+                                        113.72554130981402,
+                                        40.19594297724143,
+                                        1162.6766726943943,
+                                        113.71609922709746,
+                                        39.958878489745146,
+                                        1162.6766726943943,
+                                        113.56199799604461,
+                                        40.08107663887205,
+                                        1049.3777351379395
+                                    ]
+                                },
+                                {
+                                    "name": "DataType",
+                                    "title": "数据类型",
+                                    "type": "String",
+                                    "value": "unsigned short"
+                                }
+                            ],
+                            "multi": false,
+                            "name": "OutputImgFileName",
+                            "suffix": "_oc.tiff",
+                            "title": "输出文件",
+                            "type": "string",
+                            "value": "/mnt/hgfs/VMcentosShare/result/OC/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.tiff"
+                        }
+                    ],
+                    "ProgramStatus": [
+                        {
+                            "name": "ReturnCode",
+                            "title": "运行转态",
+                            "type": "String",
+                            "value": 0
+                        },
+                        {
+                            "name": "ReturnAnalyse",
+                            "title": "错误描述",
+                            "type": "String",
+                            "value": "SUCCESS"
+                        }
+                    ]
+                }
+            },
+            "createDate": "",
+            "desc": "",
+            "dirs": [
+                "原始影像",
+                "正射纠正影像"
+            ],
+            "flow_id": "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+            "icon": "",
+            "id": "OC-0.0.1",
+            "manual": "",
+            "name": "正射校正",
+            "op": "OC",
+            "outputDir": "",
+            "owner": "",
+            "redirect": "",
+            "tags": "",
+            "tmp": "",
+            "type": "remotesatellite",
+            "version": "0.0.1",
+            "workDir": ""
+        },
+        {
+            "ModuleClass": "llts",
+            "Systemproperty": {
+                "Freeze": [
+                    {
+                        "name": "FreezeExecute",
+                        "title": "冻结执行",
+                        "type": "string",
+                        "value": ""
+                    }
+                ],
+                "SystemConfiguration": [
+                    {
+                        "name": "SlaveNum",
+                        "title": "线程个数",
+                        "type": "int",
+                        "value": 8
+                    },
+                    {
+                        "name": "ThreadNum",
+                        "title": "线程个数",
+                        "type": "int",
+                        "value": 4
+                    },
+                    {
+                        "name": "BlockSize",
+                        "title": "分块大小",
+                        "type": "int",
+                        "value": 2048
+                    }
+                ]
+            },
+            "Userproperty": {
+                "InputParameter": {
+                    "Configuration": [
+                        {
+                            "name": "MapProjection",
+                            "paramtype": "1",
+                            "title": "投影方式",
+                            "type": "string",
+                            "value": "WGS84"
+                        },
+                        {
+                            "name": "GridSize",
+                            "paramtype": "1",
+                            "title": "格网大小",
+                            "type": "int",
+                            "value": 8
+                        },
+                        {
+                            "name": "ProductLevel",
+                            "paramtype": "1",
+                            "title": "产品级别",
+                            "type": "string",
+                            "value": "LEVEL4"
+                        },
+                        {
+                            "name": "PixelSpacing",
+                            "paramtype": "1",
+                            "title": "影像分辨率",
+                            "type": "float",
+                            "value": 0
+                        },
+                        {
+                            "name": "DataFormat",
+                            "paramtype": "1",
+                            "title": "产品类型",
+                            "type": "string",
+                            "value": "GTIFF"
+                        },
+                        {
+                            "name": "ProductThumb",
+                            "paramtype": "1",
+                            "title": "缩略图生成",
+                            "type": "number",
+                            "value": 1
+                        },
+                        {
+                            "name": "DEMFileName",
+                            "paramtype": "0",
+                            "title": "参考高程",
+                            "type": "url",
+                            "value": "info=\"http://192.168.48.3:9090/geowebcache/product/getinfo?productid=GlobalDEM1Km\",data=\"http://192.168.48.3:9090/geowebcache/product/tile?layers=GlobalDEM1Km\""
+                        },
+                        {
+                            "name": "Egm96FileName",
+                            "paramtype": "0",
+                            "title": "参考Egm96高程",
+                            "type": "url",
+                            "value": ""
+                        }
+                    ],
+                    "InputFilePath": [
+                        {
+                            "auto": [
+                                "dir_mss",
+                                "dir_pan"
+                            ],
+                            "mulit": false,
+                            "name": "InputImgFileName",
+                            "title": "输入影像",
+                            "type": "url",
+                            "value": "/mnt/hgfs/VMcentosShare/GF/5scence/PAN/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.tiff"
+                        },
+                        {
+                            "auto": [
+                                "_BundleAdj.rpb",
+                                "_RPC.rpb",
+                                "dir_mss",
+                                "dir_pan"
+                            ],
+                            "mulit": false,
+                            "name": "InputRPCFileName",
+                            "title": "输入RPC",
+                            "type": "string",
+                            "value": "/mnt/hgfs/VMcentosShare/GF/5scence/PAN/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.rpb"
+                        }
+                    ],
+                    "ReferenceImage": []
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        {
+                            "att": [
+                                {
+                                    "name": "DataFormat",
+                                    "title": "影像格式",
+                                    "type": "String",
+                                    "value": "SPIMG"
+                                },
+                                {
+                                    "name": "ImageTime",
+                                    "title": "生产时间",
+                                    "type": "String",
+                                    "value": 1505545980635
+                                },
+                                {
+                                    "name": "MapProjection",
+                                    "title": "投影类型",
+                                    "type": "String",
+                                    "value": "WGS84"
+                                },
+                                {
+                                    "name": "EarthModel",
+                                    "title": "参考椭球",
+                                    "type": "String",
+                                    "value": "WGS_84"
+                                },
+                                {
+                                    "name": "PixelSpacing",
+                                    "title": "分辨率",
+                                    "type": "Double",
+                                    "value": 0.000033089433424380216
+                                },
+                                {
+                                    "name": "SatelliteID",
+                                    "title": "卫星标识",
+                                    "type": "String",
+                                    "value": "XXX"
+                                },
+                                {
+                                    "name": "Location",
+                                    "title": "地理位置",
+                                    "type": "double",
+                                    "value": [
+                                        113.39885644436266,
+                                        39.965881895762564,
+                                        1162.6766726943943,
+                                        113.40719844779034,
+                                        40.20300507081384,
+                                        1162.6766726943943,
+                                        113.72554130981402,
+                                        40.19594297724143,
+                                        1162.6766726943943,
+                                        113.71609922709746,
+                                        39.958878489745146,
+                                        1162.6766726943943,
+                                        113.56199799604461,
+                                        40.08107663887205,
+                                        1049.3777351379395
+                                    ]
+                                },
+                                {
+                                    "name": "DataType",
+                                    "title": "数据类型",
+                                    "type": "String",
+                                    "value": "unsigned short"
+                                }
+                            ],
+                            "multi": false,
+                            "name": "OutputImgFileName",
+                            "suffix": "_oc.tiff",
+                            "title": "输出文件",
+                            "type": "string",
+                            "value": "/mnt/hgfs/VMcentosShare/result/OC/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-MSS1.tiff"
+                        }
+                    ],
+                    "ProgramStatus": [
+                        {
+                            "name": "ReturnCode",
+                            "title": "运行转态",
+                            "type": "String",
+                            "value": 0
+                        },
+                        {
+                            "name": "ReturnAnalyse",
+                            "title": "错误描述",
+                            "type": "String",
+                            "value": "SUCCESS"
+                        }
+                    ]
+                }
+            },
+            "createDate": "",
+            "desc": "",
+            "dirs": [
+                "原始影像",
+                "正射纠正影像"
+            ],
+            "flow_id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2",
+            "icon": "",
+            "id": "OC-0.0.1",
+            "manual": "",
+            "name": "正射校正",
+            "op": "OC",
+            "outputDir": "",
+            "owner": "",
+            "redirect": "",
+            "tags": "",
+            "tmp": "",
+            "type": "remotesatellite",
+            "version": "0.0.1",
+            "workDir": ""
+        },
+        {
+            "ModuleClass": "llts",
+            "Systemproperty": {
+                "Freeze": [
+                    {
+                        "name": "FreezeExecute",
+                        "title": "冻结执行",
+                        "type": "string",
+                        "value": ""
+                    }
+                ],
+                "SystemConfiguration": [
+                    {
+                        "name": "ThreadNum",
+                        "title": "线程个数",
+                        "type": "number",
+                        "value": 4
+                    },
+                    {
+                        "name": "SlaveNum",
+                        "title": "进程个数",
+                        "type": "number",
+                        "value": 4
+                    },
+                    {
+                        "name": "BlockSize",
+                        "title": "分块大小",
+                        "type": "number",
+                        "value": 2048
+                    }
+                ]
+            },
+            "Userproperty": {
+                "InputParameter": {
+                    "Configuration": [
+                        {
+                            "name": "IsNotUseGeo",
+                            "paramtype": "1",
+                            "title": "地理信息",
+                            "type": "number",
+                            "value": 1
+                        },
+                        {
+                            "name": "MergeLayers",
+                            "paramtype": "1",
+                            "title": "波段选择",
+                            "type": "array",
+                            "value": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "NumLayers",
+                            "paramtype": "1",
+                            "title": "波段总数",
+                            "type": "number",
+                            "value": 4
+                        },
+                        {
+                            "name": "ProductThumb",
+                            "paramtype": "1",
+                            "title": "缩略图生成",
+                            "type": "number",
+                            "value": 1
+                        }
+                    ],
+                    "InputFilePath": [
+                        {
+                            "auto": [
+                                "_MSSOC.tif"
+                            ],
+                            "index": 0,
+                            "multi": false,
+                            "name": "InputMSSFileName",
+                            "title": "多光谱影像",
+                            "type": "url",
+                            "value": "info=\"http://192.168.44.55:9090/geowebcache/product/getinfo?productid=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090_mss_oc_20170711_C\",data=\"http://192.168.44.55:9090/geowebcache/product/tile?layers=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090_mss_oc_20170711_C\""
+                        },
+                        {
+                            "auto": [
+                                "_PANOC.tif"
+                            ],
+                            "index": 0,
+                            "multi": false,
+                            "name": "InputPANFileName",
+                            "title": "全色影像",
+                            "type": "url",
+                            "value": "info=\"http://192.168.44.55:9090/geowebcache/product/getinfo?productid=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1_oc_20170711_C\",data=\"http://192.168.44.55:9090/geowebcache/product/tile?layers=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1_oc_20170711_C\""
+                        },
+                        {
+                            "index": 0,
+                            "multi": false,
+                            "name": "InputPTSFileName",
+                            "title": "控制点文件",
+                            "type": "url",
+                            "value": ""
+                        }
+                    ]
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        {
+                            "att": [
+                                {
+                                    "name": "DataFormat",
+                                    "title": "影像格式",
+                                    "type": "String",
+                                    "value": "SPIMG"
+                                },
+                                {
+                                    "name": "ImageTime",
+                                    "title": "生产时间",
+                                    "type": "number",
+                                    "value": 1498577524207
+                                },
+                                {
+                                    "name": "MapProjection",
+                                    "title": "投影类型",
+                                    "type": "String",
+                                    "value": "Transverse_Mercator"
+                                },
+                                {
+                                    "name": "EarthModel",
+                                    "title": "参考椭球",
+                                    "type": "String",
+                                    "value": "WGS 84"
+                                },
+                                {
+                                    "name": "PixelSpacing",
+                                    "title": "分辨率",
+                                    "type": "number",
+                                    "value": 0.81
+                                },
+                                {
+                                    "name": "SatelliteID",
+                                    "title": "卫星标识",
+                                    "type": "String",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "Location",
+                                    "title": "地理位置",
+                                    "type": "number",
+                                    "value": [
+                                        113.89611268052823,
+                                        40.09149679674969,
+                                        0,
+                                        113.89611268052823,
+                                        40.33251834371852,
+                                        0,
+                                        114.24046950035917,
+                                        40.33251834371852,
+                                        0,
+                                        114.24046950035917,
+                                        40.09149679674969,
+                                        0,
+                                        114.0682910904437,
+                                        40.21200757023411,
+                                        0
+                                    ]
+                                },
+                                {
+                                    "name": "DataType",
+                                    "title": "数据类型",
+                                    "type": "String",
+                                    "value": "unsigned short"
+                                }
+                            ],
+                            "name": "OutputImgFileName",
+                            "suffix": "_GSImageSharpenDistribut.tif",
+                            "title": "输出文件",
+                            "type": "url",
+                            "value": "/mnt/nativeD/algo-test/algo_json_test/result/Fusion_GS/fusion_gs_output.tiff"
+                        }
+                    ],
+                    "ProgramStatus": [
+                        {
+                            "name": "ReturnCode",
+                            "title": "运行状态",
+                            "type": "String",
+                            "value": 0
+                        },
+                        {
+                            "name": "ReturnAnalyse",
+                            "title": "错误描述",
+                            "type": "String",
+                            "value": "SUCCESS"
+                        }
+                    ],
+                    "tempfile": [
+                        {
+                            "name": "e-name",
+                            "title": "z-name",
+                            "type": "float",
+                            "value": 0.9
+                        }
+                    ]
+                }
+            },
+            "createDate": "",
+            "desc": "",
+            "dirs": [
+                "正射纠正"
+            ],
+            "flow_id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+            "icon": "",
+            "id": "GSImageSharpenDistribut-0.0.1",
+            "manual": "",
+            "name": "GS融合",
+            "op": "GSImageSharpenDistribut",
+            "outputDir": "",
+            "owner": "",
+            "redirect": "",
+            "tags": "",
+            "tmp": "tmp",
+            "type": "remotesatellite",
+            "version": "0.0.1",
+            "workDir": ""
+        },
+        {
+            "ModuleClass": "llts",
+            "Systemproperty": {
+                "Freeze": [
+                    {
+                        "name": "FreezeExecute",
+                        "title": "冻结执行",
+                        "type": "string",
+                        "value": ""
+                    }
+                ],
+                "SystemConfiguration": [
+                    {
+                        "name": "ThreadNum",
+                        "title": "线程个数",
+                        "type": "number",
+                        "value": 16
+                    },
+                    {
+                        "name": "SlaveNum",
+                        "title": "线程个数",
+                        "type": "int",
+                        "value": 16
+                    },
+                    {
+                        "name": "BlockSize",
+                        "title": "分块大小",
+                        "type": "number",
+                        "value": 4096
+                    }
+                ]
+            },
+            "Userproperty": {
+                "InputParameter": {
+                    "Configuration": [
+                        {
+                            "name": "Method",
+                            "title": "方法选择",
+                            "type": "number",
+                            "value": 0
+                        },
+                        {
+                            "name": "MdparaB",
+                            "title": "亮度系数",
+                            "type": "number",
+                            "value": 1
+                        },
+                        {
+                            "name": "MdparaC",
+                            "title": "扩展常数",
+                            "type": "number",
+                            "value": 1
+                        },
+                        {
+                            "name": "ProductThumb",
+                            "title": "缩略图生成",
+                            "type": "number",
+                            "value": 1
+                        }
+                    ],
+                    "InputFilePath": [
+                        {
+                            "auto": [
+                                "_GSImageSharpDistributed.tif",
+                                "_HISImageSharpDistributed.tif",
+                                "_MSSOC.tif"
+                            ],
+                            "index": 0,
+                            "mulit": false,
+                            "name": "InputMSS_STDFileName",
+                            "title": "参考影像",
+                            "type": "url",
+                            "value": "/mnt/hgfs/llts/data/GF2_PMS2_E116.2_N40.4_20160128_L1A0001375260_Fusion_GS.tiff"
+                        },
+                        {
+                            "auto": [
+                                "_GSImageSharpDistributed.tif",
+                                "_HISImageSharpDistributed.tif",
+                                "_MSSOC.tif"
+                            ],
+                            "index": 0,
+                            "mulit": false,
+                            "name": "InputMSS_UNIFileName",
+                            "title": "输入影像",
+                            "type": "url",
+                            "value": "/mnt/hgfs/llts/data/GF2_PMS2_E116.2_N41.1_20170307_L1A0002223860_Fusion_GS.tiff"
+                        }
+                    ],
+                    "ReferenceImage": []
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        {
+                            "att": [
+                                {
+                                    "name": "DataFormat",
+                                    "title": "影像格式",
+                                    "type": "string",
+                                    "value": "SPIMG"
+                                },
+                                {
+                                    "name": "ImageTime",
+                                    "title": "生产时间",
+                                    "type": "number",
+                                    "value": 1499418022531
+                                },
+                                {
+                                    "name": "MapProjection",
+                                    "title": "投影类型",
+                                    "type": "string",
+                                    "value": "UTM Zone 50, Northern Hemisphere"
+                                },
+                                {
+                                    "name": "EarthModel",
+                                    "title": "参考椭球",
+                                    "type": "string",
+                                    "value": "WGS 84"
+                                },
+                                {
+                                    "name": "PixelSpacing",
+                                    "title": "分辨率",
+                                    "type": "number",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "SatelliteID",
+                                    "title": "卫星标识",
+                                    "type": "string",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "DataType",
+                                    "title": "数据类型",
+                                    "type": "string",
+                                    "value": "GDT_UInt16"
+                                },
+                                {
+                                    "name": "Location",
+                                    "title": "地理位置",
+                                    "type": "array",
+                                    "value": [
+                                        115.1500260517099,
+                                        38.95927900007685,
+                                        0,
+                                        115.15640911360904,
+                                        38.71237233067515,
+                                        0,
+                                        115.4859489572223,
+                                        38.717105228492265,
+                                        0,
+                                        115.48070567619267,
+                                        38.964053569806715,
+                                        0,
+                                        115.31827161886847,
+                                        38.83832047831882,
+                                        0
+                                    ]
+                                }
+                            ],
+                            "name": "OutputImgFileName",
+                            "suffix": "_RSUniformColor.tif",
+                            "title": "输出文件",
+                            "type": "url",
+                            "value": "/home/output/output.tif"
+                        }
+                    ],
+                    "ProgramStatus": [
+                        {
+                            "name": "ReturnCode",
+                            "title": "运行转态",
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "name": "ReturnAnalyse",
+                            "title": "错误描述",
+                            "type": "string",
+                            "value": "Process success."
+                        }
+                    ],
+                    "tempfile": [
+                        {
+                            "name": "e-name",
+                            "title": "z-name",
+                            "type": "float",
+                            "value": 0.9
+                        }
+                    ]
+                }
+            },
+            "dirs": [
+                "原始影像",
+                "参考影像"
+            ],
+            "flow_id": "RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37",
+            "id": "RSUniformColor-0.0.1",
+            "name": "匀光匀色",
+            "op": "RSUniformColor",
+            "outputDir": "",
+            "tags": "",
+            "tmp": "/home/tmp",
+            "version": "0.0.1",
+            "workDir": ""
+        }
+    ],
+    "name": "分钟级上球",
+    "owner": "",
+    "runMethod": "auto",
+    "type": "",
+    "version": "",
+    "workflow": [
+        {
+            "flow_id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698",
+            "next_id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2"
+        },
+        {
+            "flow_id": "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+            "next_id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+            "pre_id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698"
+        },
+        {
+            "flow_id": "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2",
+            "next_id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+            "pre_id": "dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698"
+        },
+        {
+            "flow_id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950",
+            "next_id": "RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37",
+            "pre_id": [
+                "OCaac62df3-3cb7-4488-ada7-847d922eb46c",
+                "OC101ecb59-ad1d-4d71-89c8-b20148ff14d2"
+            ]
+        },
+        {
+            "flow_id": "RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37",
+            "pre_id": "GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950"
+        }
+    ]
+}

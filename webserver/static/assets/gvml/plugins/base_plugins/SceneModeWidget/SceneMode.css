@@ -1,0 +1,20 @@
+.wrap_2_3{
+    cursor: pointer;
+    position: absolute;
+    background-size:100%;
+    z-index:99;
+    bottom: 300px;
+    left: 0px;
+    width: 45px;
+    height: 50px;
+    margin-left:7px;
+    background: url(../../../resources/widgets/3D.png) no-repeat;
+}
+
+.testy{
+	    position: absolute;
+	    
+    left: 80px;
+    bottom: 20px;
+    background: #fff;
+}

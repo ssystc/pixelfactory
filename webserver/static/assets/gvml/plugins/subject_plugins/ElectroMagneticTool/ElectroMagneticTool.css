@@ -1,0 +1,81 @@
+
+.tslv{
+	position: absolute;
+	bottom: 20PX;
+    left: 1300PX;
+	transform: translate(420px,-50px);
+	width: 180px;
+	height:150px;
+	border-radius: 10px;
+	background: url("dcglq.png") no-repeat;
+	/*background-size: 100%;*/
+	/*background: white;*/
+	z-index: 22;
+	font-size:14px;
+	display: none;
+}
+.tslv_title{
+	height: 30px;
+	line-height: 30px;
+	margin:0px;
+	color: white;
+	text-align: center;
+	border-bottom: 1px solid #12a9e9;
+}
+.tslv_outData{
+	display: none;
+	padding-bottom: 20px;
+}
+.tslv_inData p,.tslv_outData p{
+	text-indent: 14px;			
+	color: white;
+	height: 30px;
+	padding-top: 5px;
+	line-height: 30px;
+	margin:0px;
+}
+.tslv_inData input{
+	text-indent: 10px;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	width: 120px;
+	height: 25px;
+	line-height: 30px;
+	border: 1px solid #12a9e9;
+	background:none;
+}
+.tslv_inData select{
+	text-indent: 10px;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	width: 120px;
+	height: 25px;
+	line-height: 30px;
+	border: 1px solid #12a9e9;
+	background:none;				
+}
+.tslv_inData select option{
+	background: #113749;
+}
+.tslv_outData input{
+	text-indent: 10px;
+	color: white;
+	float: right;
+	margin-right: 45px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+}
+.tslv_analyze{
+	cursor: pointer;
+	width: 50px;
+	height: 25px;
+	margin: 15px 0px 10px 105px;
+	line-height: 25px;
+	background: linear-gradient(#026075 10%,#01254f);
+	color: white;
+	text-align: center;
+}

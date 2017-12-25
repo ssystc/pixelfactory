@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>New React App</title>
+    <style type="text/css">
+    body {
+        width:100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        /*background: url(./assets/bg.jpg);*/
+        background-position: right top;
+    }
+    #container {
+        padding: 20px;
+        min-width: 404px;
+        min-height: 928px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <button id="add" style="position: absolute; left: 500px; top: 100px; width: 200px; height: 200px;">点我加载</button>
+    <button id="renew" style="position: absolute; left: 500px; top: 500px; width: 200px; height: 200px;">点我更新</button>
+    <script src="./build/PlotPanel.js"></script>
+    <script type="text/javascript">
+        var plotTool = new PlotPanel.PlottingView('container', {
+            library: [
+                {id: 'basic_mark', name: '基本标绘库', json: './mark/basicMarkConfig/basic_mark.json'},
+                {id: 'military_mark', name: '军事标绘库', json: './mark/militaryMarkConfig/mil_mark.json'},
+                {id: '0_mark', name: '标绘库'},
+                {id: '1_mark', name: '标绘库'},
+                {id: '2_mark', name: '标绘库'},
+                {id: 'model_mark', name: '三维模型库'}
+            ]
+        });
+        plotTool.propFunc = function(prop, value) {
+            console.log(prop+' : '+value);
+        };
+        plotTool.render();
+
+        const add_btn = document.getElementById('add');
+        add_btn.onclick = function() {
+            if (plotTool.getMark()) {
+                console.log(plotTool.getMark().config.id, plotTool.getMark().className);
+                console.log(plotTool.getMark());
+            }
+        }
+
+        const renew_btn = document.getElementById('renew');
+        renew_btn.onclick = function() {
+            plotTool.renewPropPanel({
+                className: 'GV.JBPoint',
+                properties: {
+                    color: '#ffff00',
+                    style: {'text-fill': '#ff00ff'}
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+{
+    "id": "",
+    "version": "0.0.1",
+    "icon": "",
+    "desc": "用于测试",
+    "owner": "lizhenzhao",
+    "createDate": "2019.06.21",
+    "type": "测试",
+    "name": "测试流程",
+    "workflow": [
+        {
+            "flow_id": "flow_1",
+            "pre_id": "",
+            "next_id": "flow_2"
+        },
+        {
+            "flow_id": "flow_2",
+            "pre_id": "flow_1",
+            "next_id": ""
+        }
+    ],
+    "modules": [
+        {
+            "flow_id": "flow_1",
+            "id": "trans-0.0.1",
+            "name": "SPIMG转换",
+            "op": "transspimg",
+            "version": "0.0.1",
+            "tmp": "tmp",
+            "dirs": [ "SPIMG转换" ],
+            "icon":"",
+            "owner": "李振钊",
+            "createDate": "2017.06.21",
+            "type": "基础",
+            "manual": false,
+            "redirect": "",
+            "Userproperty": {
+                "InputParameter": {
+                    "InputFilePath": [
+                        { "name": "tiffFile", "title": "输入影像文件", "type": "string", "value": "", "auto":["_transtiff.tiff", "dir_pan"] }
+                    ],
+                    "ReferenceImage": [
+                    ],
+                    "Configuration": [
+                        { "name": "type", "title": "转换类型", "type": "string", "value": "SPIMG" }
+                    ]
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        { "name": "spimgFile", "title": "输出文件", "type": "string", "value": "", "auto":"_transspimg.spimg",
+                        "DataAttribute": [
+                            { "name": "DataFormat", "title": "影像格式", "type": "float", "value": 0.9 },
+                            { "name": "ImageTime", "title": "生产时间", "type": "float", "value": 0.9 },
+                            { "name": "MapProjection", "title": "投影类型", "type": "float", "value": 0.9 },
+                            { "name": "EarthModel", "title": "参考椭球", "type": "float", "value": 0.9 },
+                            { "name": "PixelSpacing", "title": "分辨率", "type": "float", "value": 0.9 },
+                            { "name": "SatelliteID", "title": "卫星标识", "type": "float", "value": 0.9 }
+                        ] }
+                    ],
+                    "ProgramStatus": [
+                        { "name": "ReturnCode", "title": "运行转态", "type": "float", "value": 0.9 },
+                        { "name": "ReturnAnalyse", "title": "错误描述", "type": "float", "value": 0.9 }
+                    ],
+                    "tempfile": [
+                    ]
+                }
+            },
+            "Systemproperty": {
+                "DataTypes": [
+                    { "name": "DataType", "title": "数据类型", "type": "string", "value": "局部影像" }
+                ],
+                "SystemConfiguration": [
+                    { "name": "ThreadNum", "title": "线程个数", "type": "int", "value": 4 },
+                    { "name": "BlockSize", "title": "分块大小", "type": "int", "value": 2048 }
+                ],
+                "Freeze": [
+                    { "name": "FreezeExecute", "title": "冻结执行", "type": "string", "value": "" }
+                ]
+            }
+        },
+        {
+            "flow_id": "flow_2",
+            "id": "trans-0.0.1",
+            "name": "TIFF转换",
+            "op": "transtiff",
+            "version": "0.0.1",
+            "tmp": "tmp",
+            "dirs": [ "TIFF转换" ],
+            "icon":"",
+            "owner": "李振钊",
+            "createDate": "2017.06.21",
+            "type": "基础",
+            "manual": false,
+            "redirect": "",
+            "Userproperty": {
+                "InputParameter": {
+                    "InputFilePath": [
+                        { "name": "spimgFile", "title": "输入影像文件", "type": "string", "value": "", "auto":["_transspimg.tiff", "dir_pan"] }
+                    ],
+                    "ReferenceImage": [
+                    ],
+                    "Configuration": [
+                        { "name": "type", "title": "转换类型", "type": "string", "value": "GTiff" }
+                    ]
+                },
+                "OutputParameter": {
+                    "OutPutFilePath": [
+                        { "name": "tiffFile", "title": "输出文件", "type": "string", "value": "", "auto":"_transtiff.spimg",
+                        "DataAttribute": [
+                            { "name": "DataFormat", "title": "影像格式", "type": "float", "value": 0.9 },
+                            { "name": "ImageTime", "title": "生产时间", "type": "float", "value": 0.9 },
+                            { "name": "MapProjection", "title": "投影类型", "type": "float", "value": 0.9 },
+                            { "name": "EarthModel", "title": "参考椭球", "type": "float", "value": 0.9 },
+                            { "name": "PixelSpacing", "title": "分辨率", "type": "float", "value": 0.9 },
+                            { "name": "SatelliteID", "title": "卫星标识", "type": "float", "value": 0.9 }
+                        ] }
+                    ],
+                    "ProgramStatus": [
+                        { "name": "ReturnCode", "title": "运行转态", "type": "float", "value": 0.9 },
+                        { "name": "ReturnAnalyse", "title": "错误描述", "type": "float", "value": 0.9 }
+                    ],
+                    "tempfile": [
+                    ]
+                }
+            },
+            "Systemproperty": {
+                "DataTypes": [
+                    { "name": "DataType", "title": "数据类型", "type": "string", "value": "局部影像" }
+                ],
+                "SystemConfiguration": [
+                    { "name": "ThreadNum", "title": "线程个数", "type": "int", "value": 4 },
+                    { "name": "BlockSize", "title": "分块大小", "type": "int", "value": 2048 }
+                ],
+                "Freeze": [
+                    { "name": "FreezeExecute", "title": "冻结执行", "type": "string", "value": "" }
+                ]
+            }
+        }
+    ]
+}

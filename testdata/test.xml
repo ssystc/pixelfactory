@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Userproperty>
+		<InputParameter>	
+			<InputFilePath>	  
+				<property name="InputImgFileName" title="输入影像" label="原始影像" type ="String">..\path</property>
+				<property name="InputRPCFileName" title="RPC文件" type ="string">..\path</property>					
+			</InputFilePath>	
+			<ReferenceImage>	
+				<property name="DEMFileName" title="参考高程" type ="string">0.9</property>
+			</ReferenceImage>	
+			<Configuration>	  
+				<property name="PixelSpacing" title="分辨率" type ="Float">1</property>
+				<property name="GridSize" title="格网大小" type ="int">3</property>
+			</Configuration>	
+		</InputParameter>
+		<OutputParameter>
+			<OutPutFilePath>	  
+				<property name="OutputRPCFileName" title="输出文件" type ="float">0.9</property>		
+			</OutPutFilePath>	
+			<DataAttribute>	  
+				<property name="DataFormat" title="影像格式" type ="String">0.9</property>
+				<property name="ImageTime" title="生产时间" type ="String">0.9</property>
+				<property name="MapProjection" title="投影类型" type ="String">0.9</property>
+				<property name="EarthModel" title="参考椭球" type ="String">0.9</property>
+				<property name="PixelSpacing" title="分辨率" type ="Double">0.9</property>
+				<property name="SatelliteID" title="卫星标识" type ="String">未知</property>
+			</DataAttribute>	
+			<ProgramStatus>  
+				<property name="ReturnCode" title="运行转态" type ="String">0.9</property>
+				<property name="ReturnAnalyse" title="错误描述" type ="String">0.9</property>	
+			</ProgramStatus>
+			<tempfile>  
+				<property name="e-name" title="z-name" type ="int">0.9</property>
+				<property name="e-name" title="z-name" type ="string">0.9</property>
+				<property name="e-name" title="z-name" type ="float">0.9</property>
+				<property name="e-name" title="z-name" type ="float">0.9</property>	
+			</tempfile>
+		</OutputParameter>	
+	</Userproperty>
+	<Systemproperty>
+		<DataTypes>	  
+			<property name="DataType" title="数据类型" type ="String">局部影像</property>
+		</DataTypes>
+		<SystemConfiguration>
+			<property name="ThreadNum" title="线程个数" type ="int">4</property>
+			<property name="BlockSize" title="分块大小" type ="int">2048</property>
+		</SystemConfiguration>
+		<Freeze>  
+			<property name="FreezeExecute" title="冻结执行" type ="string">0.9</property>
+		</Freeze>	
+	</Systemproperty>			
+</root>		

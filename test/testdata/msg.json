@@ -1,0 +1,354 @@
+{
+    "__TYPE__": "__START_TASK__",
+    "__CONTENT__":
+    {
+        "task":
+        {
+            "name": "ooo",
+            "createDate":
+            "2017-08-25 16:53:45",
+            "args":
+            [
+                {
+                    "index": 0,
+                    "multi": true,
+                    "name": "mssimg",
+                    "title": "mssimg",
+                    "value": "8f37fa40-34f7-4120-a081-cc6559e31762",
+                    "type": "url"
+                },
+                {
+                    "index": 1,
+                    "multi": true,
+                    "name": "mssimg",
+                    "title": "mssimg",
+                    "value": "bd2beb01-bd22-48d8-be3a-06317f2f87cf",
+                    "type": "url"
+                },
+                {
+                    "index": 0,
+                    "multi": true,
+                    "name": "mssrpb",
+                    "title": "mssrpb",
+                    "value": "cce194f7-d5ae-46dd-8e9e-cd34e0614458",
+                    "type": "url"
+                },
+                {
+                    "index": 1,
+                    "multi": true,
+                    "name": "mssrpb",
+                    "title": "mssrpb",
+                    "value": "245ade2f-cfa9-41ec-bc54-13450e64e5da",
+                    "type": "url"
+                }
+            ],
+            "argsD":
+            [
+                {
+                    "type": "string",
+                    "name": "sourceCoord",
+                    "value": "GCS WGS 1984",
+                    "title": "\u6e90\u5750\u6807\u7cfb"
+                },
+                {
+                    "type": "string",
+                    "name": "targetCoord",
+                    "value": "GCS WGS 1984",
+                    "title": "\u76ee\u6807\u5750\u6807\u7cfb"
+                }
+            ],
+            "dirclassify": "\u6211\u7684\u8d44\u6e90",
+            "flowId": "11f72c59707445478c6d70f5542616be",
+            "owner": "", "icon": "../../images/2.png",
+            "id": "67336c8a9e534a1f90f47260dcb699d5",
+            "dir": "200010035397000",
+            "desc": ""
+        },
+        "flow":
+        {
+            "IOMap":
+            [
+                {
+                    "output": {"id": "", "name": "mssimg"},
+                    "input": {"id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa", "name": "mssimg"}
+                },
+                {
+                    "output": {"id": "", "name": "mssrpb"},
+                    "input": {"id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa", "name": "mssrpb"}
+                },
+                {
+                    "output": {"id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa", "name": "mssimg"},
+                    "input": {"id": "OC52ad9842-8813-4f5e-9a56-718d8ab5f9c0", "name": "InputImgFileName"}
+                },
+                {
+                    "output": {"id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa", "name": "mssrpb"},
+                    "input": {"id": "OC52ad9842-8813-4f5e-9a56-718d8ab5f9c0", "name": "InputRPCFileName"}
+                }
+            ],
+            "name": "\u6d4b\u8bd5\u5f71\u50cf",
+            "workflow":
+            [
+                {
+                    "next_id": "OC52ad9842-8813-4f5e-9a56-718d8ab5f9c0",
+                    "flow_id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa"
+                },
+                {
+                    "pre_id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa",
+                    "flow_id": "OC52ad9842-8813-4f5e-9a56-718d8ab5f9c0"
+                }
+            ],
+            "createDate": "2017-08-21 11:30:48",
+            "modules":
+            [
+                {
+                    "redirect": "",
+                    "Userproperty":
+                    {
+                        "InputParameter":
+                        {
+                            "Configuration": [],
+                            "InputFilePath": []
+                        },
+                        "OutputParameter":
+                        {
+                            "OutPutFilePath": []
+                        }
+                    },
+                    "name": "\u5e76\u884c",
+                    "icon": "",
+                    "createDate": "",
+                    "ModuleClass": "parallel",
+                    "manual": false,
+                    "version": "0.0.1",
+                    "flow_id": "3b49dbb0-f86b-4049-9cff-45dc076afbaa",
+                    "owner": "",
+                    "op": "",
+                    "type": "system",
+                    "id": "parallel",
+                    "desc": ""
+                },
+                {
+                    "dirs":
+                    [
+                        "\u539f\u59cb\u5f71\u50cf",
+                        "\u6b63\u5c04\u7ea0\u6b63\u5f71\u50cf"
+                    ],
+                    "tmp": "",
+                    "Userproperty":
+                    {
+                        "InputParameter":
+                        {
+                            "ReferenceImage": [],
+                            "Configuration":
+                            [
+                                {
+                                    "paramtype": "1",
+                                    "type": "int",
+                                    "name": "GridSize",
+                                    "value": 512,
+                                    "title": "\u683c\u7f51\u5927\u5c0f"
+                                },
+                                {
+                                    "paramtype": "1",
+                                    "type": "string",
+                                    "name": "ProductLevel",
+                                    "value": "LEVEL4",
+                                    "title": "\u4ea7\u54c1\u7ea7\u522b"
+                                },
+                                {
+                                    "paramtype": "1",
+                                    "type": "float",
+                                    "name": "PixelSpacing",
+                                    "value": 0,
+                                    "title": "\u5f71\u50cf\u5206\u8fa8\u7387"
+                                },
+                                {
+                                    "paramtype": "0",
+                                    "type": "url",
+                                    "name": "DEMFileName",
+                                    "value": "info=http://192.168.4.3:18080/geowebcache/product/getinfo?productid=dem30_20170701_C",
+                                    "title": "test"
+                                },
+                                {
+                                    "paramtype": "0",
+                                    "type": "url",
+                                    "name": "Egm96FileName",
+                                    "value": "http://192.168.4.3:18080/geowebcache/service/tms/1.0.0/Egm96_20170615@EPSG%3A4326@tiff",
+                                    "title": "\u53c2\u8003Egm96\u9ad8\u7a0b"
+                                }
+                            ],
+                            "InputFilePath":
+                            [
+                                {
+                                    "mulit": false,
+                                    "name": "InputImgFileName",
+                                    "title": "\u8f93\u5165\u5f71\u50cf",
+                                    "auto": ["dir_mss", "dir_pan"],
+                                    "value": "/mnt/hgfs/VMcentosShare/GF/GF2/GF2_PMS1_E113.6_N40.3_20160308_L1A0001458078-PAN1.tiff",
+                                    "type": "url"
+                                },
+                                {
+                                    "mulit": false,
+                                    "name": "InputRPCFileName",
+                                    "title": "\u8f93\u5165RPC",
+                                    "auto": ["_BundleAdj.rpb", "_RPC.rpb", "dir_mss", "dir_pan"],
+                                    "value": "/mnt/hgfs/VMcentosShare/GF/GF2/GF2_PMS1_E113.6_N40.3_20160308_L1A0001458078-PAN1.rpb",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "OutputParameter":
+                        {
+                            "OutPutFilePath":
+                            [
+                                {
+                                    "multi": false,
+                                    "suffix": "_oc.tiff",
+                                    "title": "\u8f93\u51fa\u6587\u4ef6",
+                                    "value": "/mnt/hgfs/VMcentosShare/GF/GF2/GF2_PMS1_E113.6_N40.3_20160308_L1A0001458078-PAN1_OC.tiff",
+                                    "att":
+                                    [
+                                        {
+                                            "type": "String",
+                                            "name": "DataFormat",
+                                            "value": "SPIMG",
+                                            "title": "\u5f71\u50cf\u683c\u5f0f"
+                                        },
+                                        {
+                                            "type": "String",
+                                            "name": "ImageTime",
+                                            "value": 1502159344122,
+                                            "title": "\u751f\u4ea7\u65f6\u95f4"
+                                        },
+                                        {
+                                            "type": "String",
+                                            "name": "MapProjection",
+                                            "value": "UTM", "title":
+                                            "\u6295\u5f71\u7c7b\u578b"
+                                        },
+                                        {
+                                            "type": "String",
+                                            "name": "EarthModel",
+                                            "value": "WGS_84",
+                                            "title": "\u53c2\u8003\u692d\u7403"
+                                        },
+                                        {
+                                            "type": "Double",
+                                            "name": "PixelSpacing",
+                                            "value": 0.800000011920929,
+                                            "title": "\u5206\u8fa8\u7387"
+                                        },
+                                        {
+                                            "type": "String",
+                                            "name": "SatelliteID",
+                                            "value": "XXX",
+                                            "title": "\u536b\u661f\u6807\u8bc6"
+                                        },
+                                        {
+                                            "type": "double",
+                                            "name": "Location",
+                                            "value":
+                                            [
+                                                113.4541862148648,
+                                                40.18508856001988,
+                                                1305.6600073836744,
+                                                113.51343662693714,
+                                                40.379322171188285,
+                                                1553.3237408176064,
+                                                113.77853504083599,
+                                                40.33166465805707,
+                                                1017.0052523352206,
+                                                113.71867131824494,
+                                                40.137500920268664,
+                                                1165.4434814453125,
+                                                113.61627231093874,
+                                                40.258474969963,
+                                                1331.0455329716206
+                                            ],
+                                            "title": "\u5730\u7406\u4f4d\u7f6e"
+                                        },
+                                        {
+                                            "type": "String",
+                                            "name": "DataType",
+                                            "value": "unsigned short",
+                                            "title": "\u6570\u636e\u7c7b\u578b"
+                                        }
+                                    ],
+                                    "type": "string",
+                                    "name": "OutputImgFileName"
+                                }
+                            ],
+                            "ProgramStatus":
+                            [
+                                {
+                                    "type": "String",
+                                    "name": "ReturnCode",
+                                    "value": 0, "title":
+                                    "\u8fd0\u884c\u8f6c\u6001"
+                                },
+                                {
+                                    "type": "String",
+                                    "name": "ReturnAnalyse",
+                                    "value": "SUCCESS",
+                                    "title": "\u9519\u8bef\u63cf\u8ff0"
+                                }
+                            ]
+                        }
+                    },
+                    "workDir": "",
+                    "name": "\u6b63\u5c04\u7ea0\u6b63",
+                    "redirect": "",
+                    "Systemproperty":
+                    {
+                        "SystemConfiguration":
+                        [
+                            {
+                                "type": "int",
+                                "name": "ThreadNum",
+                                "value": 4,
+                                "title": "\u7ebf\u7a0b\u4e2a\u6570"
+                            },
+                            {
+                                "type": "int",
+                                "name": "BlockSize",
+                                "value": 1024,
+                                "title": "\u5206\u5757\u5927\u5c0f"
+                            }
+                        ],
+                        "Freeze":
+                        [
+                            {
+                                "type": "string",
+                                "name": "FreezeExecute",
+                                "value": "",
+                                "title": "\u51bb\u7ed3\u6267\u884c"
+                            }
+                        ]
+                    },
+                    "ModuleClass": "llts",
+                    "manual": "",
+                    "id": "OC-0.0.1",
+                    "version": "0.0.1",
+                    "createDate": "",
+                    "flow_id": "OC52ad9842-8813-4f5e-9a56-718d8ab5f9c0",
+                    "owner": "",
+                    "desc": "",
+                    "op": "OC",
+                    "type": "remotesatellite",
+                    "outputDir": "",
+                    "icon": ""
+                }
+            ],
+            "version": "",
+            "key": "tools",
+            "owner": "",
+            "runMethod": "auto",
+            "icon": "../../images/1.png",
+            "type": "",
+            "id": "11f72c59707445478c6d70f5542616be",
+            "desc": ""
+        }
+    },
+    "__ID__": "67336c8a9e534a1f90f47260dcb699d5",
+    "__USER_UID__": "aaaaa"
+}

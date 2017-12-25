@@ -1,0 +1,24 @@
+/*信息展示栏*/
+.msg_location{
+    z-index: 2;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    display: inline-block;
+    height: 30px;
+    /*border: 5px solid transparent;*/
+    -webkit-border-image: url(../../../resources/widgets/渐变border.png) 30 stretch;  /*Safari 3.1-5 */
+    -o-border-image: url(../../../resources/widgets/渐变border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../../../resources/widgets/渐变border.png) 30 stretch;
+}
+.msg_location{
+    background: rgba(0,0,0,0.6)
+}
+.msg_location li{
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 30px;
+    text-align: center;
+}

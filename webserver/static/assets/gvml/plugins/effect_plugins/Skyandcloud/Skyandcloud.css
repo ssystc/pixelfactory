@@ -1,0 +1,130 @@
+body{background: #131d39}
+.biaop{
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	width: 200px;
+	height:230px;
+	background: url(adfsa.png);
+	background-size:200px 230px;
+	z-index: 22;
+	font-size:14px;
+	z-index: 6;
+}
+.biaop_title{
+	height: 40px;
+	line-height: 40px;
+	margin:0px;
+	color: white;
+	text-align: center;
+}
+.biaop_inData p{
+	text-indent: 14px;
+	margin:0px;
+	height:25px;
+	color: white;	
+}
+.biaop_inData>p{
+	color: #1179c6;
+}			
+.biaop_inData span{
+	overflow: hidden;
+}
+.biaop_inData .span {
+	display: inline;
+    color: white;
+    margin-left: 6px;
+}
+.biaop_inData .input {
+	display: inline;
+    width: 20px;
+    margin-left: 6px;
+    color: white;
+}
+.biaop_analyze{
+	cursor: pointer;
+	width: 50px;
+	height: 20px;		
+	margin: 60px 0px 10px 75px;
+	border:2px solid red; 
+	/*background: linear-gradient(#026075 10%,#01254f);*/
+	border-image:-webkit-linear-gradient(#1179c6,#a037bc) 6 6;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+.globallight{
+	float: left;
+	height:35px;
+	line-height: 35px;
+	color: #1179c6 !important;
+}
+
+.setting-space{
+	width:100px;
+	height:30px;
+	float: left;
+	margin-left: 10px;
+	margin-top:10px;
+}
+.setting-control{
+	cursor: pointer;
+	width:50px;
+	height:15px;
+	border-radius:5px;
+	border:1px solid #1179c6;
+	float:left;
+	position: relative;
+}
+.setting-control img{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:25px;
+	height:15px;
+}
+.setcon-content{
+	float: left;
+}	
+.tkh-time{
+	width:100%;
+	height:45px;
+}
+.tkh-time input{
+	margin-left:15px;
+}	
+input[type=range] {
+	-webkit-appearance:none;
+	width:160px;
+	height:3px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+	height:3px;
+	border-radius: 10px;
+	background: #aaaaaa;
+}
+input[type=range]:focus{
+	outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance:none;
+	height:5px;
+	width:5px;
+	margin-top:-7px;
+	background: #0d8ce9;
+	border-radius: 50%;
+	border:solid 8px rgba(0,0,0,0.4);
+}
+.tkh-time p{
+	line-height: 30px;
+	font-size:12px;
+}
+.tkh-select{
+	/*background: #000a15;*/
+	background: none;
+	color:white;
+	border-color:#1179c6;
+}	
+.tkh-select option{
+	background: #1179c6 ;
+}

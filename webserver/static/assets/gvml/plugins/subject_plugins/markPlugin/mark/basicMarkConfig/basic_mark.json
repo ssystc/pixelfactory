@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "id": "label",
+            "creator": "GV.Label",
+            "description": "文字",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/text.png"
+        },
+        {
+            "id": "place",
+            "creator": "GV.Place",
+            "description": "标记",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/pin.svg"
+        },
+        {
+            "id": "imageoverlay",
+            "creator": "GV.ImageOverLay",
+            "description": "图片",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/image.png"
+        },
+        {
+            "id": "model",
+            "creator": "GV.Model",
+            "description": "模型",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/model.png"
+        },
+        {
+            "id": "circle",
+            "creator": "GV.Circle",
+            "description": "圆",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/circle.png"
+        },
+        {
+            "id": "cylinder",
+            "creator": "GV.Cylinder",
+            "description": "圆柱",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/cylinder.png"
+        },
+        {
+            "id": "sector",
+            "creator": "GV.Sector",
+            "description": "扇形",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/sector.png"
+        },
+        {
+            "id": "semicylinder",
+            "creator": "GV.Semicylinder",
+            "description": "半圆柱",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/semicylinder.png"
+        },
+        {
+            "id": "ellipse",
+            "creator": "GV.Ellipse",
+            "description": "椭圆",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/ellipse.png"
+        },
+        {
+            "id": "ellipsoid",
+            "creator": "GV.Ellipsoid",
+            "description": "椭球",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/ellipsoid.png"
+        },
+        {
+            "id": "sphere",
+            "creator": "GV.Sphere",
+            "description": "球体",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/sphere.png"
+        },
+        {
+            "id": "cone",
+            "creator": "GV.Cone",
+            "description": "圆锥",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/cone.png"
+        },
+        {
+            "id": "polygon",
+            "creator": "GV.Polygon",
+            "description": "多边形",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/polygon.png"
+        },
+        {
+            "id": "polyline",
+            "creator": "GV.Polyline",
+            "description": "线段",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/basicMarkConfig/polyline.png"
+        }
+    ]
+}

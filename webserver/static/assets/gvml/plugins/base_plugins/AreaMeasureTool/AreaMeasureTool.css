@@ -1,0 +1,45 @@
+
+			.areaMeasure{
+				border-radius: 5px;
+				width: 200px;
+				position: absolute;
+				top: 20px;
+				left: 100px;
+				background: #131d39;
+			}
+			.areaMeasure_title{
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				font-size: 14px;
+				color: white;
+			}
+			.areaMeasure_btn span{
+				cursor: pointer;
+				color: white;
+				margin-left: 35px;
+				float: left;
+				display: block;
+				height: 25px;
+				width: 50px;
+				line-height: 25px;
+				text-align: center;
+				font-size: 14px;
+				border: 1px solid #0088CC;
+			}
+			.areaMeasure_content{
+				color: white;
+				font-size: 14px;
+				padding-bottom: 10px;
+				margin-top: 10px;
+			}
+			.areaMeasure_content span{
+				margin: 0 10px;
+			}
+			.areaMeasure_content input{
+				color: white;
+				text-indent:10px ;
+				width: 100px;
+				height: 25px;
+				border: 1px solid #0088CC;
+			}

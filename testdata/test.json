@@ -1,0 +1,63 @@
+{
+    "id": "OC-0.0.1",
+    "name": "正射校正",
+    "op": "OC",
+    "version": "0.0.1",
+    "tmp": "tmp",
+    "dirs": ["原始影像", "rpc文件"],
+    "icon": "",
+    "desc": "",
+    "owner": "",
+    "createDate": "",
+    "type": "",
+    "runMethod": "auto",
+    "manual": false,
+    "redirect": "",
+    "Userproperty": {
+        "InputParameter": {
+            "InputFilePath": [
+                { "name": "InputImgFileName", "title": "输入影像", "type": "string", "value": "../path" },
+                { "name": "InputRPCFileName", "title": "RPC文件", "type": "string", "value": "../path" }
+            ],
+            "ReferenceImage": [
+                { "name": "DEMFileName", "title": "参考高程", "type": "string", "value": 0.9 }
+            ],
+            "Configuration": [
+                { "name": "PixelSpacing", "title": "分辨率", "type": "float", "value": 1.0 },
+                { "name": "GridSize", "title": "格网大小", "type": "int", "value": 3 }
+            ]
+        },
+        "OutputParameter": {
+            "OutPutFilePath": [
+                { "name": "OutputRPCFileName", "title": "输出文件", "type": "float", "value": 0.9 }
+            ],
+            "DataAttribute": [
+                { "name": "DataFormat", "title": "影像格式", "type": "float", "value": 0.9 },
+                { "name": "ImageTime", "title": "生产时间", "type": "float", "value": 0.9 },
+                { "name": "MapProjection", "title": "投影类型", "type": "float", "value": 0.9 },
+                { "name": "EarthModel", "title": "参考椭球", "type": "float", "value": 0.9 },
+                { "name": "PixelSpacing", "title": "分辨率", "type": "float", "value": 0.9 },
+                { "name": "SatelliteID", "title": "卫星标识", "type": "float", "value": 0.9 }
+            ],
+            "ProgramStatus": [
+                { "name": "ReturnCode", "title": "运行转态", "type": "float", "value": 0.9 },
+                { "name": "ReturnAnalyse", "title": "错误描述", "type": "float", "value": 0.9 }
+            ],
+            "tempfile": [
+                { "name": "e-name", "title": "z-name", "type": "float", "value": 0.9 }
+            ]
+        }
+    },
+    "Systemproperty": {
+        "DataTypes": [
+            { "name": "DataType", "title": "数据类型", "type": "string", "value": "局部影像" }
+        ],
+        "SystemConfiguration": [
+            { "name": "ThreadNum", "title": "线程个数", "type": "int", "value": 4 },
+            { "name": "BlockSize", "title": "分块大小", "type": "int", "value": 2048 }
+        ],
+        "Freeze": [
+            { "name": "FreezeExecute", "title": "冻结执行", "type": "string", "value": "" }
+        ]
+    }
+}

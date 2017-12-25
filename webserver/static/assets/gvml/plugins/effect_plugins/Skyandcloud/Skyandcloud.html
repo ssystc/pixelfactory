@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>天空盒特效设置</title>
+		<link rel="stylesheet" type="text/css" href="Skyandcloud.css"/>
+	</head>
+	<body>
+		<div class="biaop">
+			<p class="biaop_title">天空盒特效设置</p>
+			<div class="biaop_inData">
+				<p>时间设置 : </p>
+				<div class="tkh-time">
+					<input id="btn_scaleSkyAndCloud" type="range"></input>
+					<p>凌晨  &nbsp;&nbsp; 早 &nbsp;&nbsp; 晚&nbsp;&nbsp; 凌晨</p>
+				</div>
+				<p>雪 : </p>
+				<div class="tkh-time">
+					<input id="btn_snow" type="range"></input>
+					<p>小  &nbsp;&nbsp;&nbsp;&nbsp; 中 &nbsp;&nbsp;&nbsp;&nbsp; 大</p>	
+				</div>
+				<div>
+					<p class="globallight">全球光照 : </p>
+					<div class="setting-space">
+						<div class="setting-control" data="false">
+							<img src="./dist/plugins/effect_plugins/Skyandcloud/17.png">
+						</div>
+						<p class="setcon-content">关</p>
+					</div>
+				</div>				
+				<p>云类型 : 
+					<select class="tkh-select">
+						<option>卷积云1</option>
+						<option>卷积云2</option>
+						<option>卷积云3</option>
+						<option>卷积云4</option>
+						<option>卷积云5</option>
+						<option>卷积云6</option>
+						<option>卷积云7</option>
+						<option>卷积云8</option>
+						<option>卷积云9</option>
+					</select>
+				</p>				
+			</div>			
+			<!--<p class="biaop_analyze">确定</p>-->
+		</div>
+
+		<script type="text/javascript">
+			document.querySelector(".setting-control").childNodes[1].style.left = "0px";
+//			document.querySelector(".setting-control").onclick = function(){
+//			document.getElementsByClassName("setting-control")[0].onclick =function(){
+//				console.log(666)
+//				if(this.childNodes[1].style.left == "0px"){
+//					this.childNodes[1].style.left = "25px";
+//					this.nextSibling.nextSibling.innerHTML = "开";
+//					this.setAttribute('data', 'true');
+//				}else{
+//					this.childNodes[1].style.left = "0px";
+//					this.nextSibling.nextSibling.innerHTML = "关";
+//					this.setAttribute('data', 'false');
+//					alert(this.getAttribute('data'));
+//				}
+//			}
+		</script>
+	</body>
+</html>

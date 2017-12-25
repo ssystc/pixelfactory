@@ -1,0 +1,151 @@
+2017-12-16 18:43:04,138 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,138 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,138 modulefactory.py[line:16] INFO create module parallel
+2017-12-16 18:43:04,138 modulefactory.py[line:19] INFO <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,140 workflow.py[line:424] INFO None add module:<taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,140 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,140 modulefactory.py[line:16] INFO create module 
+2017-12-16 18:43:04,140 modulefactory.py[line:21] ERROR can't create module 
+2017-12-16 18:43:04,140 workflow.py[line:427] INFO None create module failed : OCaac62df3-3cb7-4488-ada7-847d922eb46c
+2017-12-16 18:43:04,140 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,140 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,140 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,141 workflow.py[line:424] INFO None add module:<taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,141 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,141 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,141 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,141 workflow.py[line:424] INFO None add module:<taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,141 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,141 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,141 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:0, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,141 workflow.py[line:424] INFO None add module:<taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:0, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,154 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,155 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,155 modulefactory.py[line:16] INFO create module parallel
+2017-12-16 18:43:04,155 modulefactory.py[line:19] INFO <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,155 workflow.py[line:424] INFO None add module:<taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,155 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,155 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,155 modulefactory.py[line:19] INFO <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,157 workflow.py[line:424] INFO None add module:<taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,157 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,157 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,157 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,157 workflow.py[line:424] INFO None add module:<taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,157 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,157 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,157 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,157 workflow.py[line:424] INFO None add module:<taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:0, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,157 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,157 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,157 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:0, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,157 workflow.py[line:424] INFO None add module:<taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:0, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,160 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,160 workflow.py[line:297] INFO None start task: None
+2017-12-16 18:43:04,161 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,161 modulefactory.py[line:16] INFO create module parallel
+2017-12-16 18:43:04,161 modulefactory.py[line:19] INFO <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,161 workflow.py[line:424] INFO None add module:<taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,161 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,161 modulefactory.py[line:16] INFO create module 
+2017-12-16 18:43:04,161 modulefactory.py[line:21] ERROR can't create module 
+2017-12-16 18:43:04,161 workflow.py[line:427] INFO None create module failed : OCaac62df3-3cb7-4488-ada7-847d922eb46c
+2017-12-16 18:43:04,161 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,161 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,161 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,163 workflow.py[line:424] INFO None add module:<taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,163 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,163 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,163 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,163 workflow.py[line:424] INFO None add module:<taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,163 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,163 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,164 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,164 workflow.py[line:424] INFO None add module:<taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,164 workflow.py[line:327] INFO Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\pixelfactory\taskserver\workflow.py", line 324, in run
+    self.initModules()
+  File "C:\Users\admin\Desktop\pixelfactory\taskserver\workflow.py", line 435, in initModules
+    raise MsgException(ErrorCode.ConnectModuleError, u'初始化模块时，模块连接出错')
+MsgException
+
+2017-12-16 18:43:04,164 workflow.py[line:336] INFO None run over 
+	--> None -200 初始化模块时，模块连接出错
+2017-12-16 18:43:04,262 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,262 workflow.py[line:297] INFO None start task: None
+2017-12-16 18:43:04,262 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,263 modulefactory.py[line:16] INFO create module parallel
+2017-12-16 18:43:04,263 modulefactory.py[line:19] INFO <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,263 workflow.py[line:424] INFO None add module:<taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,263 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,263 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,263 modulefactory.py[line:19] INFO <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,263 workflow.py[line:424] INFO None add module:<taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,263 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,263 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,263 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,263 workflow.py[line:424] INFO None add module:<taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,263 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,263 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,263 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,265 workflow.py[line:424] INFO None add module:<taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,265 moduledata.py[line:22] INFO %%%%%%%%%%%%%%%%%%%%%%%%%s
+2017-12-16 18:43:04,265 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,265 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,265 workflow.py[line:424] INFO None add module:<taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,266 workflow.py[line:191] INFO None run module: <taskid:None, name:__start_module__, require:[], next:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,266 workflow.py[line:219] INFO None module finished: <taskid:None, name:__start_module__, require:[], next:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], finished:1, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,266 workflow.py[line:191] INFO None run module: <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2', u'OCaac62df3-3cb7-4488-ada7-847d922eb46c'], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,266 parallelmodule.py[line:32] INFO mergeName: None
+2017-12-16 18:43:04,266 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,266 modulefactory.py[line:19] INFO <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,267 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,267 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,269 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,269 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,269 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,269 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-0', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,269 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,270 modulefactory.py[line:19] INFO <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,270 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,270 modulefactory.py[line:19] INFO <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,272 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,272 modulefactory.py[line:19] INFO <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,273 modulefactory.py[line:16] INFO create module llts
+2017-12-16 18:43:04,273 modulefactory.py[line:19] INFO <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-1', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,273 workflow.py[line:219] INFO None module finished: <taskid:None, name:dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698, require:['__start_module__'], next:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-0', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0', u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-1', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1'], finished:1, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,295 workflow.py[line:191] INFO None run module: <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,296 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1.json
+2017-12-16 18:43:04,296 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,299 workflow.py[line:191] INFO None run module: <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,299 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0.json
+2017-12-16 18:43:04,299 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,302 workflow.py[line:191] INFO None run module: <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,303 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\OCaac62df3-3cb7-4488-ada7-847d922eb46c-0.json
+2017-12-16 18:43:04,303 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,306 workflow.py[line:191] INFO None run module: <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,308 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\OCaac62df3-3cb7-4488-ada7-847d922eb46c-1.json
+2017-12-16 18:43:04,308 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,328 workflow.py[line:219] INFO None module finished: <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,332 workflow.py[line:219] INFO None module finished: <taskid:None, name:OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,336 workflow.py[line:219] INFO None module finished: <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-0, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,341 workflow.py[line:219] INFO None module finished: <taskid:None, name:OCaac62df3-3cb7-4488-ada7-847d922eb46c-1, require:[u'dc6a6b0b-8f1d-4f91-83ef-dea7b6f1e698'], next:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,344 workflow.py[line:191] INFO None run module: <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-0', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,344 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0.json
+2017-12-16 18:43:04,344 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,348 workflow.py[line:191] INFO None run module: <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-1', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>
+2017-12-16 18:43:04,348 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1.json
+2017-12-16 18:43:04,348 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,351 workflow.py[line:219] INFO None module finished: <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-0', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-0'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,355 workflow.py[line:219] INFO None module finished: <taskid:None, name:GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1, require:[u'OCaac62df3-3cb7-4488-ada7-847d922eb46c-1', u'OC101ecb59-ad1d-4d71-89c8-b20148ff14d2-1'], next:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1'], finished:1, exitCode:0, returnCode:0, returnMsg:SUCCESS, uploading:False>:0
+2017-12-16 18:43:04,358 workflow.py[line:191] INFO None run module: <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,358 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0.json
+2017-12-16 18:43:04,359 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,362 workflow.py[line:191] INFO None run module: <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>
+2017-12-16 18:43:04,362 lltsmodule.py[line:32] INFO write module json to file: /mnt/mfs-cli/ssyllts/llts-data/pf2/None5609365c-33f8-4ddd-9c0f-ab7e7088872c\flow\RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1.json
+2017-12-16 18:43:04,364 lltsmodule.py[line:36] INFO start llts task: testlltsId
+2017-12-16 18:43:04,368 workflow.py[line:219] INFO None module finished: <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-0'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,371 workflow.py[line:219] INFO None module finished: <taskid:None, name:RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1, require:[u'GSImageSharpenDistribut96744250-75e0-4b16-828d-0261911b2950-1'], next:['__end_module__'], finished:1, exitCode:0, returnCode:0, returnMsg:Process success., uploading:False>:0
+2017-12-16 18:43:04,371 workflow.py[line:191] INFO None run module: <taskid:None, name:__end_module__, require:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0', u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1'], next:[], finished:0, exitCode:0, returnCode:0, returnMsg:, uploading:False>
+2017-12-16 18:43:04,371 workflow.py[line:219] INFO None module finished: <taskid:None, name:__end_module__, require:[u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-0', u'RSUniformColor15975951-ecca-4c2b-b008-b36d1fc89d37-1'], next:[], finished:1, exitCode:0, returnCode:0, returnMsg:, uploading:False>:0
+2017-12-16 18:43:04,371 workflow.py[line:338] INFO None run over sucess

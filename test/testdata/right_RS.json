@@ -1,0 +1,203 @@
+{
+  "ModuleClass": "llts",
+  "Systemproperty": {
+    "Freeze": [
+      {
+        "name": "FreezeExecute",
+        "title": "冻结执行",
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "SystemConfiguration": [
+      {
+        "name": "ThreadNum",
+        "title": "线程个数",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "BlockSize",
+        "title": "分块大小",
+        "type": "number",
+        "value": null
+      }
+    ]
+  },
+  "Userproperty": {
+    "InputParameter": {
+      "Configuration": [
+        {
+          "name": "GrossErrorsThreshold",
+          "paramtype": "1",
+          "title": "剔除间隔",
+          "type": "number",
+          "value": 2.5
+        },
+        {
+          "name": "ConvergenceThreshold",
+          "paramtype": "1",
+          "title": "收敛阈值",
+          "type": "number",
+          "value": 1.0000000000000002e-06
+        },
+        {
+          "name": "MaximumNormalIterations",
+          "paramtype": "1",
+          "title": "迭代次数",
+          "type": "number",
+          "value": 30
+        },
+        {
+          "name": "DEMFileName",
+          "paramtype": "0",
+          "title": "参考高程",
+          "type": "url",
+          "value": "http://192.168.4.171:9090/geowebcache/service/tms/1.0.0/DEM@EPSG%3A4326_DEM@raw"
+        }
+      ],
+      "InputFilePath": [
+        {
+          "auto": [
+            "dir_pan",
+            "pan2",
+            "PAN3"
+          ],
+          "index": 0,
+          "multi": true,
+          "name": "InputImgFileName",
+          "title": "输入影像",
+          "type": "url",
+          "value": "info=\"http://192.168.44.55:9090/geowebcache/product/getinfo?productid=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1_20170711_C\",data=\"http://192.168.44.55:9090/geowebcache/product/tile?layers=GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1_20170711_C\""
+        },
+        {
+          "auto": [
+            "dir_pan",
+            "pan2",
+            "PAN"
+          ],
+          "index": 0,
+          "multi": true,
+          "name": "InputRPCFileName",
+          "title": "输入RPC",
+          "type": "url",
+          "value": "/home/xuebw-test/Data/Azone2-1-5scenes/PAN/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1.rpb"
+        },
+        {
+          "auto": [
+            "_ImageMatchbatch.txt"
+          ],
+          "name": "InputGCPPointFileName",
+          "title": "像点文件",
+          "type": "url",
+          "value": "/home/Factory-test/BundleAdj-test/test.gcp-con-url-2img.txt"
+        },
+        {
+          "auto": [
+            "_ImageMatchbatch.gcp"
+          ],
+          "name": "InputGCPFileName",
+          "title": "GCP文件",
+          "type": "url",
+          "value": "/home/Factory-test/BundleAdj-test/test-2img.gcp"
+        }
+      ]
+    },
+    "OutputParameter": {
+      "OutPutFilePath": [
+        {
+          "att": [
+            {
+              "name": "DataFormat",
+              "title": "影像格式",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "ImageTime",
+              "title": "生产时间",
+              "type": "number",
+              "value": 1499915946706
+            },
+            {
+              "name": "MapProjection",
+              "title": "投影类型",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "EarthModel",
+              "title": "参考椭球",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "PixelSpacing",
+              "title": "分辨率",
+              "type": "number",
+              "value": ""
+            },
+            {
+              "name": "SatelliteID",
+              "title": "卫星标识",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Location",
+              "title": "地理位置",
+              "type": "number",
+              "value": ""
+            },
+            {
+              "name": "DataType",
+              "title": "数据类型",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "index": 0,
+          "multi": "true",
+          "name": "OutPutRPCFile",
+          "suffix": "_BundleAdj_RS.rpc",
+          "title": "RPC输出文件",
+          "type": "url",
+          "value": "/home/Factory-test/algo-test/BundleAdj_RS/GF2_PMS1_E113.6_N40.1_20160308_L1A0001458090-PAN1_BundleAdj_RS.0.rpb"
+        }
+      ],
+      "ProgramStatus": [
+        {
+          "name": "ReturnCode",
+          "title": "运行状态",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ReturnAnalyse",
+          "title": "错误描述",
+          "type": "string",
+          "value": "SUCCESS"
+        }
+      ],
+      "tempfile": []
+    }
+  },
+  "createDate": "",
+  "desc": "",
+  "dirs": [
+    "原始RPC",
+    "平差后RPC"
+  ],
+  "icon": "",
+  "manual": "",
+  "name": "遥感卫星区域网平差",
+  "op": "BundleAdj_RS",
+  "outputDir": "",
+  "owner": "",
+  "redirect": "",
+  "tmp": "tmp",
+  "type": "remotesatellite",
+  "version": "0.0.1",
+  "workDir": ""
+}
+

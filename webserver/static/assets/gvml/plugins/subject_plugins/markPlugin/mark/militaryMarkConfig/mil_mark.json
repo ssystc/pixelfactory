@@ -1,0 +1,262 @@
+{
+    "data": [
+        {
+            "id": "100",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/00100.png"
+        },
+        {
+            "id": "200",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/00200.png"
+        },
+        {
+            "id": "900",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/00900.png"
+        },
+        {
+            "id": "1000",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01000.png"
+        },
+        {
+            "id": "1100",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01100.png"
+        },
+        {
+            "id": "1200",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01200.png"
+        },
+        {
+            "id": "1300",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01300.png"
+        },
+        {
+            "id": "1400",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01400.png"
+        },
+        {
+            "id": "1500",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/01500.png"
+        },
+        {
+            "id": "2200",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/02200.png"
+        },
+        {
+            "id": "2300",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/02300.png"
+        },
+        {
+            "id": "2400",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/02400.png"
+        },
+        {
+            "id": "2803",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/02803.png"
+        },
+        {
+            "id": "4400",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/04400.png"
+        },
+        {
+            "id": "4401",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/04401.png"
+        },
+        {
+            "id": "24900",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/24900.png"
+        },
+        {
+            "id": "28500",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28500.png"
+        },
+        {
+            "id": "38003",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/38003.png"
+        },
+        {
+            "id": "38302",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/38302.png"
+        },
+        {
+            "id": "38300",
+            "creator": "GV.JBPoint",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/38300.png"
+        },
+        {
+            "id": "21400",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/21400.png"
+        },
+        {
+            "id": "25000",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25000.png"
+        },
+        {
+            "id": "25201",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25201.png"
+        },
+        {
+            "id": "25204",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25204.png"
+        },
+        {
+            "id": "25205",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25205.png"
+        },
+        {
+            "id": "25208",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25208.png"
+        },
+        {
+            "id": "25300",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25300.png"
+        },
+        {
+            "id": "25301",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25301.png"
+        },
+        {
+            "id": "25900",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25900.png"
+        },
+        {
+            "id": "25901",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/25901.png"
+        },
+        {
+            "id": "26600",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/26600.png"
+        },
+        {
+            "id": "26601",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/26601.png"
+        },
+        {
+            "id": "28400",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28400.png"
+        },
+        {
+            "id": "28000",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28000.png"
+        },
+        {
+            "id": "28200",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28200.png"
+        },
+        {
+            "id": "28201",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28201.png"
+        },
+        {
+            "id": "28300",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28300.png"
+        },
+        {
+            "id": "28301",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28301.png"
+        },
+        {
+            "id": "28901",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/28901.png"
+        },
+        {
+            "id": "29102",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/29102.png"
+        },
+        {
+            "id": "29500",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/29500.png"
+        },
+        {
+            "id": "40900",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/40900.png"
+        },
+        {
+            "id": "41000",
+            "creator": "GV.JBLine",
+            "description": "",
+            "image": "/dist/plugins/subject_plugins/markPlugin/mark/militaryMarkConfig/41000.png"
+        }
+    ]
+}

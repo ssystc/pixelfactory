@@ -1,0 +1,57 @@
+{
+    "layers": [
+        {
+            "id" :"testImg",
+            "source": {
+                "driver": "grst",
+                "url": "\\\\192.168.16.42\\guidang\\Data\\grst\\darkblue_shp\\index.idx"
+            },
+            "type": "image",
+            "img": "/dist/resources/widgets/img6.png",
+            "name": "GRST影像"
+        },
+        {
+            "id" :"beijing",
+            "source": {
+                "driver": "tms",
+                "url": "\\\\192.168.16.42\\guidang\\Data\\GeoMap\\image\\Beijing_ALOS\\tms.xml"
+            },
+            "type": "image",
+            "img": "/dist/resources/widgets/img6.png",
+            "name": "北京局部"
+        },
+        {
+            "id" :"world_terrain_30",
+            "source": {
+                "driver": "gdal",
+                "url": "\\\\192.168.16.42\\guidang\\Data\\GeoMap\\image\\Beijing_DEM\\Beijing_DEM.tif"
+            },
+            "type": "elevation",
+            "img": "/dist/resources/widgets/img6.png",
+            "name": "北京地形"
+        }
+    ],
+    "baselayers": [
+        {
+            "id" :"worldtif",
+            "source": [{
+                "driver": "gdal",
+                "url": "./world.tif"
+            }],
+            "type": "base_image",
+            "img": "/dist/resources/widgets/img6.png",
+            "name": "TIF影像"
+        },
+        {
+            "id" :"cesiumImg",
+            "source": [{
+                "driver": "tms",
+                "url": "http://127.0.0.1:3000/examples/data/tms/tilemapresource.xml",
+                "format": "jpg"
+            }],
+            "type": "base_image",
+            "img": "/dist/resources/widgets/img6.png",
+            "name": "CESIUM"
+        }
+    ]
+}

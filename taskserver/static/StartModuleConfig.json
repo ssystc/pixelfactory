@@ -1,0 +1,27 @@
+{
+    "name": "开始",
+    "type": "system",
+    "createDate" : "",
+	"desc" : "",
+	"icon" : "",
+	"manual" : false,
+	"op" : "",
+	"owner" : "geovis",
+	"redirect" : "",
+	"version" : "0.0.1",
+    "ModuleClass": "StartModule",
+    "Userproperty": {
+        "InputParameter": {
+            "InputFilePath": [
+                { "name": "rootdir", "title": "根目录", "type": "dir", "value": "" }
+            ]
+        },
+        "OutputParameter": {
+            "OutPutFilePath": [
+                { "name": "dir_pan", "title": "全色目录", "type": "dir", "value": "" },
+                { "name": "dir_mss", "title": "多光谱目录", "type": "dir", "value": "" },
+                { "name": "dir_stereo", "title": "立体相对目录", "type": "dir", "value": "" }
+            ]
+        }
+    }
+}
